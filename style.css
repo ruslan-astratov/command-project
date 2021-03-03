@@ -46,6 +46,7 @@ body {
 
 /* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
 .class-format {
+  margin-bottom: 2130px;
 }
 
 /* Заголовок секции -  "Формат занятий */
@@ -112,4 +113,70 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* --------------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
+/* ---------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
+
+/* --------------------------------------------------------  Секция "ЧТО УЗНАЕМ */
+
+/* Родительская обёртка   для картинки с самураями,  текстового блока и картинки с Годзиллой */
+.what-we-learn__wrapper {
+  position: relative;
+}
+
+/* Картинка с двумя самураями */
+.what-we-learn__samurai {
+  display: block;
+  height: auto;
+  max-width: 284px;
+  margin-left: auto;
+
+  position: absolute;
+  right: 210px;
+  bottom: 403px;
+}
+
+/* ----------- Текстовый блок */
+
+/* Обёртка над заголовком и списком */
+.what-we-learn__description {
+  padding-left: 36px;
+}
+
+/* Заголовок     "Что узнаем"   */
+.what-we-learn__heading {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55.76px;
+
+  margin-bottom: 58px;
+}
+
+/* Список */
+.what-we-learn__list {
+  font-size: 24px;
+  line-height: 36px;
+
+  padding-left: 20px;
+
+  /* width: 662px; */
+  width: 665px;
+}
+
+/* Элементы списка */
+.what-we-learn__list-item {
+}
+/* --------- // Текстовый блок */
+
+/* Картинка с Годзиллой */
+.what-we-learn__godzilla {
+  display: block;
+  height: auto;
+  max-width: 386px;
+  margin-left: auto;
+
+  position: absolute;
+  right: 120px;
+  bottom: 46px;
+}
+
+/* // ----------- ------------------------------------------// Секция "ЧТО УЗНАЕМ */
