@@ -45,3 +45,59 @@ body {
 
   padding-left: 120px;
 }
+
+.about {
+  margin-left: 121px;
+}
+.about-h2 {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 56px;
+  margin-bottom: 55px;
+}
+.about-lead {
+  display: flex;
+}
+.about-description {
+  font-size: 24px;
+  line-height: 150%;
+  width: 662px;
+  height: 374px;
+  margin-right: 190px;
+}
+.about-lead-img {
+  width: 314px;
+  height: 315px;
+  margin-top: 20px;
+}
+.about-info {
+  display: flex;
+  margin-top: 90px;
+}
+.about-info-img {
+  width: 232px;
+  height: 203px;
+  margin-right: 132px;
+}
+.about-info-table {
+  margin-top: 60px;
+}
+.about-info-table th {
+  font-size: 25px;
+  font-weight: 700;
+  width: 245px;
+  height: 39px;
+  line-height: 130%;
+  padding-right: 95px;
+  text-align: left;
+}
+
+.about-info-table td {
+  font-size: 18px;
+  font-weight: 400;
+  width: 245px;
+  height: 39px;
+  line-height: 130%;
+  padding-right: 95px;
+}
