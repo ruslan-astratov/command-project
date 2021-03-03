@@ -176,6 +176,8 @@ body {
 /* Родительская обёртка   для картинки с самураями,  текстового блока и картинки с Годзиллой */
 .what-we-learn__wrapper {
   position: relative;
+
+  margin-bottom: 865px;
 }
 
 /* Картинка с двумя самураями */
@@ -293,7 +295,6 @@ body {
   margin-top: 18px;
   margin-left: 2px;
   height: 190px;
-
 }
 .text {
   font-family: Roboto;
@@ -312,7 +313,7 @@ body {
 .third-part {
   width: 483.63px;
   height: 200px;
-  background-color: #1E4681;
+  background-color: #1e4681;
   border-radius: 5px;
   transform: rotate(-4deg);
   margin-left: 289px;
@@ -332,7 +333,6 @@ body {
   color: white;
   margin: auto;
   margin-bottom: 6px;
-
 }
 .block-two {
   width: 435px;
@@ -342,5 +342,239 @@ body {
   font-size: 20px;
   line-height: 130%;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
+/* --------------------------------------------------   Секция АВТОРЫ  КУРСА  ---------------------------------------------------------------------*/
+
+/* Флекс-родитель, который будет позиционировать детей - ширина у него будет 1217 пикселей- */
+.course-authors__flex-parent {
+  display: flex;
+
+  width: 1217px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-left: 10px;
+}
+
+/*----------- Автор слева (на мобильной версии сайта он будет расположен сверху) */
+
+/*  общий блок левого автора */
+.course-authors__left-author {
+  width: 616px;
+
+  /* background-color: lightgreen; */
+
+  margin-right: 15px;
+
+  padding-top: 164px;
+}
+
+/* Заголовок  "Авторы курса" */
+.course-authors__heading {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+
+  margin-bottom: 84px;
+}
+
+/* Ряд с аватаром и инициалами */
+.course-authors__left-author .course-authors__avatar-and-fio {
+  display: flex;
+
+  align-items: center;
+
+  padding-left: 38px;
+}
+
+/* Аватар */
+.course-authors__left-author .course-authors__avatar {
+  margin-right: 18px;
+}
+
+.course-authors__left-author .course-authors__fio {
+  position: relative;
+
+  bottom: 16px;
+}
+
+/* Имя автора       Данила Кузнецов    */
+.course-authors__left-author .course-authors__fio h3 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101.38%;
+
+  position: relative;
+}
+
+/* Псевдоэлемент  -  значок информации */
+.course-authors__left-author .course-authors__fio h3::after {
+  content: "i";
+
+  display: block;
+  width: 28px;
+  height: 28px;
+
+  position: absolute;
+  right: -45px;
+  bottom: 0px;
+
+  font-size: 18px;
+  line-height: 130%;
+
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Краткая характеристика автора              режиссёр, историк кино     */
+.course-authors__left-author .course-authors__fio p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+
+  position: relative;
+  top: 15px;
+}
+
+/* Большой текстовый блок с описанием автора */
+.course-authors__left-author .course-authors__author-description {
+  width: 399px;
+  padding: 31px 21px 35px 25px;
+
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  margin-left: auto;
+
+  position: relative;
+
+  bottom: 15px;
+}
+
+/* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
+.course-authors__left-author .course-authors__author-description p {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.course-authors__left-author .course-authors__author-description p:first-child {
+  margin-bottom: 23px;
+}
+
+/* --------// Автор слева (на мобильной версии сайта он будет расположен сверху) */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/* ------------------------- Автор  справа ------------- */
+
+/*  общий блок правого автора */
+.course-authors__right-author {
+  width: 568px;
+
+  /* background-color: red; */
+}
+
+/* Ряд с аватаром и инициалами */
+.course-authors__right-author .course-authors__avatar-and-fio {
+  display: flex;
+
+  align-items: center;
+}
+
+/* Аватар */
+.course-authors__right-author .course-authors__avatar {
+  margin-right: 19px;
+}
+
+/* Имя автора       Данила Кузнецов    */
+.course-authors__right-author .course-authors__fio h3 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101.38%;
+  padding-top: 2px;
+
+  margin-bottom: 14px;
+
+  position: relative;
+  top: 2px;
+}
+
+/* Псевдоэлемент  -  значок информации */
+.course-authors__right-author .course-authors__fio h3::after {
+  content: "i";
+
+  display: block;
+  width: 28px;
+  height: 28px;
+
+  position: absolute;
+  right: 46px;
+  bottom: -4px;
+
+  font-size: 18px;
+  line-height: 130%;
+
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Краткая характеристика автора              режиссёр, историк кино     */
+.course-authors__right-author .course-authors__fio p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+/* Большой текстовый блок с описанием автора */
+.course-authors__right-author .course-authors__author-description {
+  width: 399px;
+  padding: 26px 21px 29px 25px;
+
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  margin-left: auto;
+  margin-bottom: 4px;
+
+  position: relative;
+  left: 16px;
+}
+
+/* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
+.course-authors__right-author .course-authors__author-description p {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.course-authors__right-author
+  .course-authors__author-description
+  p:first-child {
+  margin-bottom: 23px;
+}
+/* ----------------------//  Автор  справа ------------- */
+
+/* ------------------------------------------------ //   Секция АВТОРЫ  КУРСА ---------------------------------------------------------------  */
