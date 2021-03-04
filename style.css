@@ -795,16 +795,24 @@ body {
   align-items: center;
 }
 /* Инстаграм */
-.icon-inst {
+.icon-inst:hover {
+  position: relative;
+  bottom: 5px;
 }
 /* Файсбук */
-.icon-face {
+.icon-face:hover {
+  position: relative;
+  bottom: 5px
 }
 /* Вконтакте */
-.icon-vk {
+.icon-vk:hover {
+  position: relative;
+  bottom: 5px
 }
 /* Вотсап */
-.icon-wa {
+.icon-wa:hover {
+  position: relative;
+  bottom: 5px
 }
 /* Блок с контактами */
 .contact {
@@ -832,6 +840,11 @@ body {
   line-height: 101.38%;
   margin-right: 57px;
 }
+.nomber:hover {
+  position: relative;
+  bottom: 5px;
+  text-decoration: underline;
+}
 /* Блок с иконкой и электронным адресом */
 .mail {
   display: flex;
@@ -851,6 +864,11 @@ body {
   font-size: 25px;
   line-height: 101.38%;
   margin-right: 30px;
+}
+.mail-shite:hover {
+  position: relative;
+  bottom: 5px;
+  text-decoration: underline;
 }
 /* Блок с нижним названием */
 .synchronization {
