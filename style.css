@@ -16,6 +16,15 @@ ul {
   padding: 0;
 }
 
+/* Универсальный стиль для ВСЕХ заголовков типа h2 */
+.universal-h2 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+}
+
 /* -------------------------------------- Шрифты , которые используются на нашем сайте :    ------------------------------ */
 
 /* font-family: 'Roboto', sans-serif;
@@ -667,6 +676,7 @@ body {
 .start-course {
   padding-top: 179px;
   padding-bottom: 185px;
+  background: #9dc9c8;
 }
 
 /* Тенический контейнер шириной 1196 пикселей. Нужен только для того, чтобы отцентрировать содержимое */
