@@ -661,3 +661,77 @@ body {
 }
 
 /* ------------------------------------------------ //    Секция "Курс прошло уже 1616 человек"  -------------------------------------- */
+
+/* ------------------------------------------------------- Секция "Начало курса"  -------------------------------------------------------------------------------*/
+/* Сама секция.   Тег section */
+.start-course {
+  padding-top: 179px;
+  padding-bottom: 185px;
+}
+
+/* Тенический контейнер шириной 1196 пикселей. Нужен только для того, чтобы отцентрировать содержимое */
+.container1196px {
+  width: 1196px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Заголовок   Начало курса  */
+.start-course__heading {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+
+  margin-bottom: 62px;
+}
+
+/* текст   "Стоимость"  */
+.start-course__label-price {
+  font-size: 25px;
+  line-height: 101.38%;
+
+  margin-bottom: 5px;
+}
+
+/* Текст    3900 р. */
+.start-course__price {
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-bottom: 78px;
+}
+
+/* Два текстовых блока с описанием */
+.start-course__wrapper-for-two-blocks {
+  display: flex;
+}
+
+/* Заголовки в каждом из двух блоков */
+.start-course__wrapper-for-two-blocks h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 101.38%;
+
+  margin-bottom: 16px;
+}
+
+/* Текстовое описание внутри каждого блока */
+.start-course__wrapper-for-two-blocks p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 101.38%;
+}
+
+/* Правый отступ для левого блока */
+.start-course__left-block {
+  margin-right: 70px;
+}
+
+/* Ширина каждого блока */
+.start-course__left-block,
+.start-course__right-block {
+  width: 294px;
+}
+/* ----------------------------------------------------- // Секция "Начало курса"  -------------------------------------------------------------------------------*/
