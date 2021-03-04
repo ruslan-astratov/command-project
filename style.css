@@ -123,14 +123,17 @@ body {
   margin-right: auto;
 }
 /* --------------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
+
+/* ---------------------------------- СЕКЦИЯ "О КУРСЕ" */
 .about {
   margin-left: 121px;
+  margin-bottom: 100px;
 }
 .about-h2 {
-  font-family: "Roboto Slab";
-  font-weight: 700;
+  font-family: "Roboto Slab", serif;
   font-size: 55px;
-  line-height: 56px;
+  line-height: 55.76px;
+  font-weight: 700;
   margin-bottom: 55px;
 }
 .about-lead {
@@ -146,27 +149,29 @@ body {
 .about-lead-img {
   width: 314px;
   height: 315px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 .about-info {
   display: flex;
-  margin-top: 90px;
+  margin-top: 95px;
 }
 .about-info-img {
   width: 232px;
   height: 203px;
-  margin-right: 132px;
+  margin-right: 131px;
 }
 .about-info-table {
-  margin-top: 60px;
+  margin-top: 65px;
+  border-collapse: collapse;
 }
 .about-info-table th {
   font-size: 25px;
   font-weight: 700;
   width: 245px;
-  height: 39px;
-  line-height: 130%;
-  padding-right: 95px;
+  height: 40px;
+  line-height: 32.5px;
+  padding-left: 0;
+  padding-right: 0;
   text-align: left;
 }
 
@@ -175,10 +180,13 @@ body {
   font-weight: 400;
   width: 245px;
   height: 39px;
-  line-height: 130%;
+  line-height: 23.4px;
+  padding-left: 0;
   padding-right: 95px;
+  padding-top: 5px;
 }
-/* ---------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
+
+/* ---------------------------------------------------------- // Секция "О КУРСЕ */
 
 /* --------------------------------------------------------  Секция "ЧТО УЗНАЕМ */
 
@@ -753,3 +761,71 @@ body {
   width: 294px;
 }
 /* ----------------------------------------------------- // Секция "Начало курса"  -------------------------------------------------------------------------------*/
+
+/* --------------------------------Секция "ПРОГРАММА КУРСА" */
+.program-h2-wrapper {
+  margin-left: 121px;
+  display: flex;
+  position: relative;
+}
+
+.program-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 84px;
+}
+
+.program-card {
+  width: 399px;
+  height: 328px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  margin-right: 37px;
+  margin-bottom: 36px;
+  margin-top: 6px;
+  position: relative;
+}
+.program-h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 55px;
+  line-height: 55.76px;
+  font-weight: 700;
+  margin-bottom: 126px;
+}
+
+.black-rectangle {
+  background-color: black;
+  width: 630px;
+  height: 14px;
+  position: absolute;
+  top: 23px;
+  right: 0;
+}
+
+.program-card-img {
+  width: 100%;
+  display: inline-block;
+}
+.program-card-heading {
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 20px;
+  margin-top: 7px;
+  
+}
+.program-card-date {
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 19px;
+  position: absolute;
+  bottom: 55px;
+}
+.program-card-name {
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 19px;
+  position: absolute;
+  bottom: 23px;
+}
