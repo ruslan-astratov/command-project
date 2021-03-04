@@ -661,3 +661,130 @@ body {
 }
 
 /* ------------------------------------------------ //    Секция "Курс прошло уже 1616 человек"  -------------------------------------- */
+
+
+
+
+/* ------------------------------------------------ //    Подвал сайта!!!!! // ----------------------------------------------- */
+/* Черный блок */
+.footer {
+  background-color: black;
+  height: 390px;
+  padding-top: 50px;
+}
+/* Контейнер с содержимы, помагает в центрирование */
+.container-footer {
+  width: 1172px;
+  height: 317px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Блок содержащий Логотип, иконки на соц.сети и контакты */
+.social-logo {
+  display: flex;
+  justify-content:space-between
+}
+/* Блок с лого и соц.сетями */
+.logo-icon  {
+
+}
+/* Блок с лого */
+.logo-white {
+  margin-bottom: 25px;
+}
+/* Непосредственно логотип */
+.logo {
+
+}
+/* Блок с иконками на соц.сети */
+.social-icon {
+  width: 198px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Инстаграм */
+.icon-inst {
+
+}
+/* Файсбук */
+.icon-face {
+
+}
+/* Вконтакте */
+.icon-vk {
+
+}
+/* Вотсап */
+.icon-wa {
+
+}
+/* Блок с контактами */
+.contact {
+  width: 318px;
+  height: 88px;
+}
+/* Блок с иконкой и номером */
+.nomber-phone {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 19px;
+  padding-top: 6px;
+}
+/* Иконка телефона */
+.phone {
+
+}
+/* Номер телефона */
+.nomber {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 101.38%;
+  margin-right: 57px;
+}
+/* Блок с иконкой и электронным адресом */
+.mail {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+/* Иконка конверта */
+.mail-icon {
+  margin-bottom: 3px;
+
+}
+/* Электронный адрес */
+.mail-shite {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 101.38%;
+  margin-right: 30px;
+}
+/* Блок с нижним названием */
+.synchronization {
+  display: flex;
+  align-items: flex-end;
+  height: 186px;
+  color: #ffffff;
+}
+/* Блок находящийся внутри блока с названием */
+.synchroniz {
+  width: 230px;
+  height: 40px;
+}
+/* Нижнее название */
+.synch {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 101.38%;
+}
