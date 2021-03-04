@@ -377,6 +377,15 @@ body {
 
 /* ----------------------------------------------------------- ----  Секция АВТОРЫ  КУРСА  ---------------------------------------------------------------------*/
 
+/* .course-authors {
+  width: 834px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: blueviolet;
+} */
+
 /* Флекс-родитель, который будет позиционировать детей - ширина у него будет 1217 пикселей- */
 .course-authors__flex-parent {
   display: flex;
@@ -423,7 +432,7 @@ body {
   padding-left: 38px;
 }
 
-/* Аватар */
+/* Аватар левого автора */
 .course-authors__left-author .course-authors__avatar {
   margin-right: 18px;
 }
@@ -518,7 +527,7 @@ body {
 
 /*  */
 
-/* ------------------------- Автор  справа ------------- */
+/* ------------------------------ Автор  справа ------------- */
 
 /*  общий блок правого автора */
 .course-authors__right-author {
@@ -617,6 +626,205 @@ body {
 }
 /* ----------------------//  Автор  справа ------------- */
 
+/*  */
+
+/*  ------------------------------------------------------------        МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1279px) {
+  /* Флекс-родитель, который будет позиционировать детей - ширина у него будет 1217 пикселей */
+  .course-authors__flex-parent {
+    background-color: aqua;
+    width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*  слегка пододвинем    ВПРАВО    значок   "i"    */
+  .course-authors__left-author
+    .course-authors__fio
+    h3
+    .course-authors__information {
+    width: 16px;
+    height: 16px;
+
+    font-size: 10.425px;
+    line-height: 130%;
+  }
+
+  .course-authors__left-author .course-authors__avatar-and-fio {
+    padding-left: 16px;
+  }
+
+  /* Заголовок "Авторы курса"   */
+  .course-authors__heading {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 101.38%;
+
+    position: relative;
+    right: 4px;
+    bottom: 5px;
+
+    margin-bottom: 45px;
+  }
+
+  /* Аватар левого автора */
+  .course-authors__left-author .course-authors__avatar img {
+    display: block;
+    width: 109px;
+    height: 103px;
+  }
+
+  /* Имя    левого  втора       Данила Кузнецов    */
+  .course-authors__left-author .course-authors__fio h3 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 101.38%;
+
+    position: relative;
+    top: 8px;
+    right: 6px;
+  }
+
+  /* Краткая характеристика левого автора              режиссёр, историк кино     */
+  .course-authors__left-author .course-authors__fio p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 130%;
+    /* or 13px */
+
+    position: relative;
+    top: 15px;
+
+    right: 7px;
+  }
+
+  /* Слева    Большой текстовый блок с описанием автора */
+  .course-authors__left-author .course-authors__author-description {
+    width: 231px;
+    padding: 19px 12px 25px 14px;
+
+    background: #ffffff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+
+    margin-left: auto;
+
+    position: relative;
+
+    bottom: 10px;
+  }
+
+  /* Для левого автора    Стили для двух параграфов , которые находятся внутри большого текстового блока    */
+  .course-authors__left-author .course-authors__author-description p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 130%;
+  }
+
+  /*  */
+  .course-authors__left-author
+    .course-authors__author-description
+    p:first-child {
+    margin-bottom: 14px;
+  }
+
+  /* -------------------------------------------------    Для ПРАВОГО автора  */
+
+  /* Большой текстовый блок с описанием автора */
+  .course-authors__right-author .course-authors__author-description {
+    width: 231px;
+    padding: 14px 12px 22px 15px;
+
+    background: #ffffff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+
+    margin-left: auto;
+    margin-bottom: 66px;
+
+    position: relative;
+
+    top: 65px;
+    right: 40px;
+
+    transform: translateX(-10px);
+  }
+
+  /* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
+  .course-authors__right-author .course-authors__author-description p {
+    font-size: 10px;
+    line-height: 130%;
+  }
+
+  /* Отступ вниз для параграфа */
+  .course-authors__right-author
+    .course-authors__author-description
+    p:first-child {
+    margin-bottom: 14px;
+  }
+
+  /* Аватар */
+  .course-authors__right-author .course-authors__avatar img {
+    width: 104px;
+    height: 96px;
+
+    position: relative;
+    right: 7px;
+  }
+
+  /* Имя автора справа */
+  .course-authors__right-author .course-authors__fio h3 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 101.38%;
+
+    position: relative;
+    right: 14px;
+  }
+
+  /* Краткое описание автора */
+  .course-authors__right-author .course-authors__fio p {
+    font-size: 10px;
+    line-height: 130%;
+
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+  }
+
+  /*  слегка пододвинем    ВПРАВО    значок   "i"   у правого автора */
+  .course-authors__right-author
+    .course-authors__fio
+    h3
+    .course-authors__information {
+    width: 17px;
+    height: 17px;
+    font-size: 10.425px;
+    line-height: 130%;
+    position: relative;
+    top: 1px;
+    right: 4px;
+  }
+
+  /* Псевдоэлемент для Большого текстового блока   в виде картинки с изображением программиста , сидящего за компьютером  */
+  .course-authors__right-author .course-authors__author-description::before {
+    content: "";
+    display: block;
+    width: 155px;
+    height: 124px;
+    position: absolute;
+    top: -143px;
+    right: 9px;
+    background-image: url(./image/image-rastr/desktop/programmer.png);
+    background-size: cover;
+  }
+}
 /* --------------------------------------------------------------- //   Секция АВТОРЫ  КУРСА ---------------------------------------------------------------  */
 
 /* ------------------------------------------ ----------------   Секция "Курс прошло уже 1616 человек"-------------------------------------- */
@@ -939,13 +1147,15 @@ body {
   line-height: 101.38%;
 }
 
-/* Для планшетов  */
-/* @media( max-width: 768px) and ( max-width: 1199px ) {
+/*                    Для планшетов  */
+/* @media( min-width: 992px ) and ( max-width: 1279px ) {
+
+  
 
 } */
 
-/* Для мобилок  */
-/* @media( min-width: 320px ) and ( max-width: 767px ) {
+/*                     Для мобилок  */
+/* @media( min-width: 320px ) and ( max-width: 991px ) {
 
 } */
 
