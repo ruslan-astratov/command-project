@@ -774,11 +774,10 @@ body {
 /* Блок содержащий Логотип, иконки на соц.сети и контакты */
 .social-logo {
   display: flex;
-  justify-content:space-between
+  justify-content: space-between;
 }
 /* Блок с лого и соц.сетями */
-.logo-icon  {
-
+.logo-icon {
 }
 /* Блок с лого */
 .logo-white {
@@ -786,7 +785,6 @@ body {
 }
 /* Непосредственно логотип */
 .logo {
-
 }
 /* Блок с иконками на соц.сети */
 .social-icon {
@@ -798,19 +796,15 @@ body {
 }
 /* Инстаграм */
 .icon-inst {
-
 }
 /* Файсбук */
 .icon-face {
-
 }
 /* Вконтакте */
 .icon-vk {
-
 }
 /* Вотсап */
 .icon-wa {
-
 }
 /* Блок с контактами */
 .contact {
@@ -827,7 +821,6 @@ body {
 }
 /* Иконка телефона */
 .phone {
-
 }
 /* Номер телефона */
 .nomber {
@@ -836,7 +829,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 101.38%;  
+  line-height: 101.38%;
   margin-right: 57px;
 }
 /* Блок с иконкой и электронным адресом */
@@ -848,7 +841,6 @@ body {
 /* Иконка конверта */
 .mail-icon {
   margin-bottom: 3px;
-
 }
 /* Электронный адрес */
 .mail-shite {
@@ -931,7 +923,6 @@ body {
   font-weight: 700;
   padding-left: 20px;
   margin-top: 7px;
-  
 }
 .program-card-date {
   font-size: 25px;
