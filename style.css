@@ -1174,11 +1174,13 @@ body {
 
 /* Сам тег section */
 .program {
-  width: 1272px;
+  /* width: 1272px; */
   margin-left: auto;
   margin-right: auto;
 
   margin-bottom: 127px;
+
+  overflow: hidden;
 }
 
 .program-h2-wrapper {
@@ -1187,12 +1189,14 @@ body {
   position: relative;
 }
 
+/* Обёртка карточек */
 .program-card-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
 
-  width: 1285px;
+  /* width: 1285px; */
+  width: 99.3%;
 
   margin-left: auto;
 
@@ -1262,13 +1266,121 @@ body {
   bottom: 23px;
 }
 
-/* Для планшетов  */
-/* @media( max-width: 768px) and ( max-width: 1199px ) {
+/*  */
 
-} */
+/* ------------------------------------------------------------------------  МЕДИАЗАПРОСЫ  Для планшетов  */
+@media (min-width: 992px) and (max-width: 1279px) {
+  /* Сам тег section */
+  .program {
+    /* width: 1272px; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
-/* Для мобилок  */
-/* @media( min-width: 320px ) and ( max-width: 767px ) {
+    margin-bottom: 127px;
+  }
 
-} */
+  .program-h2-wrapper {
+    /* margin-left: 119px; */
+    display: flex;
+    position: relative;
+    right: 24px;
+
+    width: 72.49%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+  }
+
+  .program-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+    /* width: 1285px; */
+    width: 74.29%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .program-card {
+    /* width: 399px; */
+    width: 231px;
+
+    height: 189px;
+    background: #ffffff;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+
+    margin-right: 21px;
+
+    margin-bottom: 19px;
+    margin-top: 6px;
+    position: relative;
+  }
+
+  .program-card:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .program-h2 {
+    font-family: "Roboto Slab", serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 101.38%;
+
+    margin-bottom: 0;
+  }
+
+  /* Чёрный прямоугольник */
+  .black-rectangle {
+    background-color: black;
+    width: 364px;
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    right: -80px;
+  }
+
+  .program-card-img {
+    width: 100%;
+    display: inline-block;
+  }
+  .program-card-heading {
+    font-weight: 700;
+    padding-left: 11px;
+    margin-top: 3px;
+
+    font-size: 17px;
+    line-height: 130%;
+  }
+
+  .program-card-date {
+    font-size: 14px;
+    line-height: 130%;
+
+    font-weight: 400;
+    padding-left: 11px;
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .program-card-name {
+    font-size: 14px;
+    line-height: 130%;
+
+    font-weight: 400;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 11px;
+  }
+}
+
+/* ---------------------------------------------------------------------- //  МЕДИАЗАПРОСЫ  Для планшетов  */
+
 /* --------------------------------------------------------------------- //  Секция "ПРОГРАММА КУРСА" */
