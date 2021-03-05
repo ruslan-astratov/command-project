@@ -41,7 +41,7 @@ body {
 
 /* Контейнер шириной 1440px, который центрирует страницу посередине  */
 .parent-wrapper {
-  /* max-width: 1440px; */
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
