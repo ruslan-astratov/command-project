@@ -212,7 +212,7 @@ body {
   margin-left: auto;
 
   position: absolute;
-  right: 209px;
+  right: 215px;
   bottom: 401px;
 }
 
@@ -257,9 +257,105 @@ body {
   margin-left: auto;
 
   position: absolute;
-  right: 120px;
+  right: 127px;
   bottom: 43px;
 }
+
+/*  */
+
+/*  --------------------------------------   МЕДИАЗАПРОСЫ для ПЛАНШЕТОВ    от 992 пикселей до 1279 --------------------------------------------  */
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  /* Родительская обёртка   для картинки с самураями,  текстового блока и картинки с Годзиллой */
+
+  .what-we-learn__wrapper {
+    position: relative;
+
+    margin-bottom: 228px;
+  }
+
+  /* Картинка с двумя самураями */
+  .what-we-learn__samurai {
+    display: block;
+    height: auto;
+    max-width: 284px;
+    margin-left: auto;
+
+    position: absolute;
+    right: 255px;
+    bottom: 240px;
+  }
+
+  .what-we-learn__samurai img {
+    display: block;
+    height: auto;
+    max-width: 158px;
+    /* margin-left: auto; */
+    /* 
+    position: absolute;
+    right: 209px;
+    bottom: 401px; */
+  }
+
+  /* ----------- Текстовый блок */
+
+  /* Обёртка над заголовком и списком */
+  .what-we-learn__description {
+    width: 703px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Заголовок     "Что узнаем"   */
+  .what-we-learn__heading {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+
+  /* Список */
+  .what-we-learn__list {
+    font-size: 24px;
+    line-height: 36px;
+
+    padding-left: 11px;
+
+    /* width: 383px; */
+    width: 397px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  /* Элементы списка */
+  .what-we-learn__list-item {
+  }
+  /* --------- // Текстовый блок */
+
+  /* Картинка с Годзиллой */
+  .what-we-learn__godzilla {
+    display: block;
+    height: auto;
+    max-width: 386px;
+    margin-left: auto;
+
+    position: absolute;
+    right: 201px;
+    bottom: 30px;
+  }
+
+  .what-we-learn__godzilla img {
+    display: block;
+    height: auto;
+    max-width: 223px;
+  }
+}
+
+/*  -------------------------------------- //   МЕДИАЗАПРОСЫ для ПЛАНШЕТОВ    от 992 пикселей до 1279 --------------------------------------------  */
 
 /* // ----------- ------------------------------------------// Секция "ЧТО УЗНАЕМ */
 
