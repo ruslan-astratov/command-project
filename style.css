@@ -154,9 +154,11 @@ body {
   margin-right: 190px;
 }
 .about-lead-img {
-  width: 314px;
-  height: 315px;
+  width: 366px;
+  height: 344px;
+  position: absolute;
   margin-top: 24px;
+  right: 4%;
 }
 .about-info {
   display: flex;
@@ -164,7 +166,7 @@ body {
 }
 .about-info-img {
   width: 232px;
-  height: 203px;
+  height: 219px;
   margin-right: 131px;
 }
 .about-info-table {
@@ -218,13 +220,22 @@ body {
     line-height: 150%;
     width: 383.41px;
     height: 216.61px;
-    margin-right: 110.04px;
+    /* margin-right: 110.04px; */
+    margin-right: 14%;
+
     margin-left: 88.5px;
   }
+
+  /* Стилизую два параграфа внутри текстового блока */
+  .about-description p {
+    width: 383.41px;
+  }
+
   .about-lead-img {
-    width: 181.86px;
-    height: 182.44px;
+    width: 211px;
+    height: 199px;
     margin-top: 15px;
+    right: 6%;
   }
   .about-info {
     display: flex;
@@ -232,13 +243,15 @@ body {
   }
   .about-info-img {
     width: 134.37px;
-    height: 117.57px;
+    height: 126px;
     margin-right: 76.45px;
     margin-left: 88.5px;
   }
   .about-info-table {
     margin-top: 39px;
     border-collapse: collapse;
+
+    width: 426px;
   }
   .about-info-table th {
     font-size: 15px;
@@ -250,7 +263,7 @@ body {
     padding-right: 0;
     text-align: left;
   }
-  
+
   .about-info-table td {
     font-size: 11px;
     font-weight: 400;
