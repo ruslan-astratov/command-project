@@ -639,7 +639,7 @@ body {
   .course-authors__flex-parent {
     background-color: aqua;
     /* width: 704px; */
-    width: 70.97%px;
+    width: 70.97%;
 
     margin-left: auto;
     margin-right: auto;
