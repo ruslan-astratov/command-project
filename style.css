@@ -578,8 +578,11 @@ body {
 /* Флекс-родитель, который будет позиционировать детей - ширина у него будет 1217 пикселей- */
 .course-authors__flex-parent {
   display: flex;
+  justify-content: space-between;
 
-  width: 1217px;
+  /* width: 1217px; */
+  width: 95%;
+
   margin-right: auto;
   margin-left: auto;
 
@@ -822,7 +825,9 @@ body {
   /* Флекс-родитель, который будет позиционировать детей - ширина у него будет 1217 пикселей */
   .course-authors__flex-parent {
     /* background-color: aqua; */
-    width: 704px;
+    /* width: 704px; */
+    width: 71%;
+
     margin-left: auto;
     margin-right: auto;
   }
