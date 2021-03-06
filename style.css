@@ -363,7 +363,7 @@ body {
     margin-left: auto;
 
     position: absolute;
-    right: 255px;
+    right: 531px;
     bottom: 240px;
   }
 
@@ -382,7 +382,8 @@ body {
 
   /* Обёртка над заголовком и списком */
   .what-we-learn__description {
-    width: 703px;
+    /* width: 703px; */
+    width: 76.95%;
     padding-left: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -425,7 +426,7 @@ body {
     margin-left: auto;
 
     position: absolute;
-    right: 201px;
+    right: 477px;
     bottom: 30px;
   }
 
