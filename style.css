@@ -1524,17 +1524,201 @@ body {
   line-height: 101.38%;
 }
 
-/*                    Для планшетов  */
-/* @media( min-width: 992px ) and ( max-width: 1279px ) {
+/*  ----------------------------------------------------------------------- МЕДИАЗАПРОСЫ       Для планшетов  --------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1279px) {
+  /* Черный блок */
+  .footer {
+    background-color: black;
+    height: 390px;
+    padding-top: 56px;
 
-  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Контейнер с содержимыМ, помогает в центрировании */
+  .container-footer {
+    /* width: 1196px; */
+    width: 69.95%;
+    height: 317px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Блок содержащий Логотип, иконки на соц.сети и контакты */
+  .social-logo {
+    display: flex;
+    justify-content: space-between;
 
-} */
+    margin-bottom: 22px;
+  }
+  /* Блок с лого и соц.сетями */
+  .logo-icon {
+  }
+  /* Блок с лого */
+  .logo-white {
+    margin-bottom: 8px;
+  }
+  /* Непосредственно логотип */
+  .logo {
+    width: 66px;
+    height: 39px;
+  }
+  /* Блок с иконками на соц.сети */
+  .social-icon {
+    width: 119px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-/*                     Для мобилок  */
-/* @media( min-width: 320px ) and ( max-width: 991px ) {
+  /* Размеры иконки Инстаграма */
+  .icon-inst {
+    width: 19px;
+    height: 19px;
+  }
 
-} */
+  /* Размеры иконки Фейсбука */
+  .icon-face {
+    width: 19px;
+    height: 19px;
+  }
+
+  /* Размеры иконки VK */
+  .icon-vk {
+    width: 19px;
+    height: 19px;
+  }
+
+  /* Размеры иконки Whats Up */
+  .icon-wa {
+    width: 19px;
+    height: 19px;
+  }
+
+  /* Инстаграм */
+  .icon-inst:hover {
+    position: relative;
+    bottom: 5px;
+  }
+  /* Файсбук */
+  .icon-face:hover {
+    position: relative;
+    bottom: 5px;
+  }
+  /* Вконтакте */
+  .icon-vk:hover {
+    position: relative;
+    bottom: 5px;
+  }
+  /* Вотсап */
+  .icon-wa:hover {
+    position: relative;
+    bottom: 5px;
+  }
+  /* Блок с контактами */
+  .contact {
+    /* width: 318px; */
+    height: 88px;
+
+    padding-right: 4px;
+  }
+  /* Блок с иконкой и номером */
+  .nomber-phone {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    /* padding-top: 6px; */
+  }
+
+  /* Иконка телефона */
+  .phone {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Номер телефона */
+  .nomber {
+    color: #ffffff;
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: normal;
+
+    margin-right: 57px;
+
+    position: relative;
+    left: 17px;
+
+    font-size: 14px;
+    line-height: 101.38%;
+  }
+  .nomber:hover {
+    position: relative;
+    bottom: 5px;
+    text-decoration: underline;
+  }
+
+  /* Блок с иконкой и электронным адресом */
+  .mail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  /* Иконка конверта */
+  .mail-icon {
+    margin-bottom: 3px;
+
+    width: 15px;
+    height: 10px;
+  }
+
+  /* Электронный адрес */
+  .mail-shite {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    margin-right: 44px;
+
+    position: relative;
+    left: 17px;
+
+    font-size: 14px;
+    line-height: 101.38%;
+  }
+  .mail-shite:hover {
+    position: relative;
+    bottom: 5px;
+    text-decoration: underline;
+  }
+
+  /* Блок с нижним названием */
+  .synchronization {
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    color: #ffffff;
+  }
+
+  /* Блок находящийся внутри блока с названием */
+  .synchroniz {
+    width: 230px;
+    height: 0px;
+  }
+
+  /* Нижнее название */
+  .synch {
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 10px;
+    line-height: 101.38%;
+  }
+}
+
+/*  ---------------------------------------------------------------------// МЕДИАЗАПРОСЫ       Для планшетов  --------------------------------------------*/
 
 /* -----------------------------------------------------------  //   Подвал сайта   Footer    ----------------------------------------------- */
 
