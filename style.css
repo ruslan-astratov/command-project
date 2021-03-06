@@ -52,77 +52,6 @@ body {
   padding-left: 41px;
 }
 
-/* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
-.class-format {
-  margin-bottom: 220px;
-}
-
-/* Заголовок секции -  "Формат занятий */
-.class-format__heading {
-  font-family: "Roboto Slab", serif;
-  font-size: 55px;
-  line-height: 55.76px;
-
-  padding-left: 35px;
-
-  margin-bottom: 128px;
-}
-
-/* Обёртка для трёх карточек */
-.class-format__wrapper-for-cards {
-  display: flex;
-
-  padding-left: 40px;
-}
-
-/* Стили для всех карточек */
-.class-format__card {
-}
-
-/* Стили для карточки 1 */
-.class-format__card:nth-child(1) {
-  width: 223px;
-
-  margin-right: 120px;
-}
-
-/* Стили для карточки 2 */
-.class-format__card:nth-child(2) {
-  width: 270px;
-  margin-right: 116px;
-}
-
-/* Стили для карточки 3 */
-.class-format__card:nth-child(3) {
-  width: 245px;
-}
-
-/* ЗАГОЛОВОК     в каждой карточке */
-.class-format__card-heading {
-  font-weight: 700;
-
-  font-size: 25px;
-  line-height: 32.5px;
-
-  color: #1e4681;
-
-  margin-bottom: 8px;
-}
-
-/* Параграф - описание внутри карточки */
-.class-format__card-description {
-  font-size: 18px;
-  line-height: 23.4px;
-}
-
-/* Вспомогательный онтейнер шириной 1272 пикселя */
-.container1272px {
-  width: 1272px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* --------------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
-
 /* ---------------------------------------------------------------- СЕКЦИЯ "О КУРСЕ" */
 .about-course-section {
   width: 1198px;
@@ -155,7 +84,6 @@ body {
 .about-lead-img {
   width: 366px;
   height: 344px;
-  position: absolute;
   margin-top: 24px;
   right: 4%;
 }
@@ -201,6 +129,7 @@ body {
     width: 69.55%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 95px;
   }
 
   .about-h2 {
@@ -209,7 +138,7 @@ body {
     line-height: 32.44px;
     font-weight: 700;
     margin-bottom: 32px;
-    margin-left: 88.5px;
+    
   }
   .about-lead {
     display: flex;
@@ -219,35 +148,29 @@ body {
     line-height: 150%;
     width: 383.41px;
     height: 216.61px;
-    /* margin-right: 110.04px; */
-    margin-right: 14%;
-
-    margin-left: 88.5px;
-  }
-
-  /* Стилизую два параграфа внутри текстового блока */
-  .about-description p {
-    width: 383.41px;
+    margin-right: 94.98px;
+    
   }
 
   .about-lead-img {
     width: 211px;
     height: 199px;
     margin-top: 15px;
-    right: 6%;
+    margin-left: 0;
   }
   .about-info {
     display: flex;
     margin-top: 54px;
+    
   }
   .about-info-img {
     width: 134.37px;
     height: 126px;
     margin-right: 76.45px;
-    margin-left: 88.5px;
+    
   }
   .about-info-table {
-    margin-top: 39px;
+    margin-top: 40px;
     border-collapse: collapse;
 
     width: 426px;
@@ -271,10 +194,143 @@ body {
     line-height: 130%;
     padding-left: 0;
     padding-right: 50px;
-    /* padding-top: 2px; */
+   
   }
 }
 /* ---------------------------------------------------------------------- // Секция "О КУРСЕ */
+
+/* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
+.class-format {
+  margin-bottom: 220px;
+}
+
+/* Заголовок секции -  "Формат занятий */
+.class-format__heading {
+  font-family: "Roboto Slab", serif;
+  font-size: 55px;
+  line-height: 55.76px;
+
+  padding-left: 35px;
+
+  margin-bottom: 132px;
+}
+
+/* Обёртка для трёх карточек */
+.class-format__wrapper-for-cards {
+  display: flex;
+
+  padding-left: 40px;
+}
+
+/* Стили для карточки 1 */
+.class-format__card:nth-child(1) {
+  width: 223px;
+  margin-right: 120px;
+}
+
+/* Стили для карточки 2 */
+.class-format__card:nth-child(2) {
+  width: 270px;
+  margin-right: 116px;
+}
+
+/* Стили для карточки 3 */
+.class-format__card:nth-child(3) {
+  width: 245px;
+}
+
+/* ЗАГОЛОВОК     в каждой карточке */
+.class-format__card-heading {
+  font-weight: 700;
+
+  font-size: 25px;
+  line-height: 32.5px;
+
+  color: #1e4681;
+
+  margin-bottom: 8px;
+}
+
+/* Параграф - описание внутри карточки */
+.class-format__card-description {
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+/* Вспомогательный контейнер шириной 1272 пикселя */
+.container1272px {
+  width: 1272px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*  ------------------------------------------------------------        МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1279px) {
+ .class-format {
+   margin-bottom: 90px;
+  
+  margin-left:auto;
+  margin-right: auto;
+ }
+
+ /* Вспомогательный контейнер шириной 1272 пикселя */
+.container1272px {
+  width: 69.55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Заголовок секции -  "Формат занятий */
+ .class-format__heading {
+   font-family: "Roboto Slab", serif;
+   font-size: 32px;
+   line-height: 32.44px;
+   text-align: left;
+   margin-bottom: 75px;
+   padding-left: 0;
+  
+ }
+
+/* Обёртка для трёх карточек */
+ .class-format__wrapper-for-cards {
+   display: flex;
+   padding-left: 0;
+  }
+
+/* Стили для карточки 1 */
+ .class-format__card:nth-child(1) {
+  width: 140px;
+  margin-right: 59px;
+ }
+
+/* Стили для карточки 2 */
+ .class-format__card:nth-child(2) {
+  width: 172px;
+  margin-right: 50.87px;
+  }
+
+/* Стили для карточки 3 */
+ .class-format__card:nth-child(3) {
+  width: 141.9px;
+ }
+
+/* ЗАГОЛОВОК     в каждой карточке */
+ .class-format__card-heading {
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 19.5px;
+   color: #1e4681;
+   margin-bottom: 5px;
+ }
+
+/* Параграф - описание внутри карточки */
+ .class-format__card-description {
+   font-size: 11px;
+   line-height: 14.3px;
+ }
+
+
+}
+/* --------------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
 
 /* -------------------------------------------------------------------  Секция "ЧТО УЗНАЕМ  -------------------------------------*/
 
