@@ -33,7 +33,7 @@ font-family: 'Roboto Slab', serif; */
 /* Основным, наиболее часто использующимся шрифтом на сайте  является  Roboto, поэтому я всему body прописываю шрифт  Roboto  */
 body {
   font-family: "Roboto", sans-serif;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 /* Roboto Slab же    мы будем ОТДЕЛЬНО   прописывать конкретно  для тех элементов , колторые его используют  */
@@ -42,7 +42,7 @@ body {
 
 /* Контейнер шириной 1440px, который центрирует страницу посередине  */
 .parent-wrapper {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,7 +72,9 @@ body {
 
 /* ---------------------------------------------------------------- СЕКЦИЯ "О КУРСЕ" */
 .about-course-section {
-  width: 1198px;
+  /* width: 1198px; */
+  width: 93.5%;
+
   margin-left: auto;
 
   margin-right: auto;
@@ -89,16 +91,25 @@ body {
   font-weight: 700;
   margin-bottom: 58px;
 }
+
 .about-lead {
   display: flex;
+  justify-content: space-between;
 }
+
 .about-description {
   font-size: 24px;
   line-height: 150%;
   width: 662px;
   height: 374px;
-  margin-right: 190px;
+  margin-right: 14%;
+  /* margin-right: 190px; */
 }
+
+.about-description p {
+  width: 662px;
+}
+
 .about-lead-img {
   width: 366px;
   height: 344px;
@@ -165,7 +176,12 @@ body {
     line-height: 150%;
     width: 383.41px;
     height: 216.61px;
+
     margin-right: 94.98px;
+  }
+
+  .about-description p {
+    width: 383px;
   }
 
   .about-lead-img {
@@ -214,7 +230,7 @@ body {
 
 /* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
 .class-format {
-  margin-bottom: 220px;
+  margin-bottom: 213px;
 }
 
 /* Заголовок секции -  "Формат занятий */
