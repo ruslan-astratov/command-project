@@ -33,6 +33,7 @@ font-family: 'Roboto Slab', serif; */
 /* Основным, наиболее часто использующимся шрифтом на сайте  является  Roboto, поэтому я всему body прописываю шрифт  Roboto  */
 body {
   font-family: "Roboto", sans-serif;
+  background-color: bisque;
 }
 
 /* Roboto Slab же    мы будем ОТДЕЛЬНО   прописывать конкретно  для тех элементов , колторые его используют  */
@@ -50,6 +51,23 @@ body {
 .header {
   padding-top: 38px;
   padding-left: 41px;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  /* ШАПКА */
+  .header {
+    padding-top: 22px;
+    padding-left: 41px;
+    width: 79%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header img {
+    width: 64px;
+    height: 38px;
+  }
 }
 
 /* ---------------------------------------------------------------- СЕКЦИЯ "О КУРСЕ" */
@@ -261,7 +279,7 @@ body {
 /*  ------------------------------------------------------------        МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
 @media (min-width: 992px) and (max-width: 1279px) {
   .class-format {
-    margin-bottom: 90px;
+    margin-bottom: 123px;
 
     margin-left: auto;
     margin-right: auto;
@@ -407,7 +425,7 @@ body {
   .what-we-learn__wrapper {
     position: relative;
 
-    margin-bottom: 228px;
+    margin-bottom: 128px;
 
     width: 90.95%;
     margin-left: auto;
@@ -622,12 +640,12 @@ body {
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 91px;
+    margin-top: 53px;
 
     position: relative;
     right: 42px;
 
-    margin-bottom: 170px;
+    margin-bottom: 101px;
   }
   .top {
     display: flex;
@@ -1015,6 +1033,7 @@ body {
 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 17px;
   }
 
   /*  слегка пододвинем    ВПРАВО    значок   "i"    */
@@ -1303,9 +1322,9 @@ body {
   /* Сама секция.  Тег section */
   .course-reviews {
     background: #efefef;
-    padding-top: 91px;
+    padding-top: 51px;
 
-    padding-bottom: 111px;
+    padding-bottom: 65px;
   }
 
   /* Технический контейнер. Нужен только для того, чтобы отцентровать контент в середине страницы */
@@ -1480,10 +1499,10 @@ body {
 @media (min-width: 992px) and (max-width: 1279px) {
   /* Сама секция.   Тег section */
   .start-course {
-    padding-top: 179px;
+    padding-top: 102px;
     /* padding-bottom: 185px; */
 
-    padding-bottom: 200px;
+    padding-bottom: 119px;
 
     background: #9dc9c8;
   }
@@ -1720,7 +1739,7 @@ body {
   .footer {
     background-color: black;
     height: 390px;
-    padding-top: 56px;
+    padding-top: 29px;
 
     margin-left: auto;
     margin-right: auto;
@@ -2019,7 +2038,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    margin-bottom: 127px;
+    margin-bottom: 12px;
   }
 
   .program-h2-wrapper {
