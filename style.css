@@ -351,7 +351,7 @@ body {
 
 /* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
 .class-format {
-  margin-bottom: 213px;
+  margin-bottom: 218px;
 }
 
 /* Заголовок секции -  "Формат занятий */
@@ -362,7 +362,7 @@ body {
 
   padding-left: 35px;
 
-  margin-bottom: 132px;
+  margin-bottom: 127px;
 }
 
 /* Обёртка для трёх карточек */
@@ -1142,6 +1142,7 @@ body {
 
   position: relative;
   top: 4px;
+  right: 4px;
 }
 
 /*  слегка пододвинем    ВПРАВО    значок   "i"    */
@@ -1158,6 +1159,9 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 130%;
+
+  position: relative;
+  right: 4px;
 }
 
 /* Большой текстовый блок с описанием автора */
@@ -2003,7 +2007,7 @@ body {
   }
   /* Блок с иконками на соц.сети */
   .social-icon {
-    width: 119px;
+    width: 111px;
     height: 35px;
     display: flex;
     justify-content: space-between;
@@ -2086,7 +2090,7 @@ body {
     margin-right: 57px;
 
     position: relative;
-    left: 17px;
+    left: 7px;
 
     font-size: 14px;
     line-height: 101.38%;
@@ -2122,7 +2126,7 @@ body {
     margin-right: 44px;
 
     position: relative;
-    left: 17px;
+    left: 9px;
 
     font-size: 14px;
     line-height: 101.38%;
@@ -2219,7 +2223,7 @@ body {
   font-weight: 700;
   margin-bottom: 126px;
 
-  padding-left: 36px;
+  padding-left: 42px;
 }
 
 /* Чёрный прямоугольник */
@@ -2324,6 +2328,7 @@ body {
     font-weight: bold;
     font-size: 32px;
     line-height: 101.38%;
+    padding-left: 35px;
 
     margin-bottom: 0;
   }
