@@ -2205,7 +2205,8 @@ body {
   background-color: #fff;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 
-  margin-right: 37px;
+  /* margin-right: 37px; */
+  margin-right: 2.9%;
 
   margin-bottom: 36px;
   margin-top: 6px;
@@ -2376,8 +2377,9 @@ body {
     bottom: 11px;
   }
 }
+/* ---------------------------------------------------------------------- //  МЕДИАЗАПРОСЫ  Для планшетов  */
 
-/* Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
+/* -------------------------------------------------- Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
 @media (min-width: 1720px) {
   /* Возвращаем  каждой третьей карточке отступ справа */
   .program-card:nth-of-type(3n) {
@@ -2403,8 +2405,121 @@ body {
     background-image: url(./image/image-rastr/desktop/programmer.png);
   }
 }
-/* Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
+/* ---------------------------------------------- Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
 
-/* ---------------------------------------------------------------------- //  МЕДИАЗАПРОСЫ  Для планшетов  */
+/*  */
+
+/* ------------------------------------------------------------------ МЕДИАЗАПРОСЫ  ДЛЯ  СМАРТФОНОВ  ------------------------------------------------ */
+@media (min-width: 320px) and (max-width: 991px) {
+  /* Сам тег section */
+  .program {
+    /* width: 1272px; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 12px;
+  }
+
+  .program-h2-wrapper {
+    /* margin-left: 119px; */
+    display: flex;
+    position: relative;
+    right: 24px;
+
+    /* width: 72.49%; */
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 44px;
+  }
+
+  .program-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 74.29%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .program-card {
+    /* width: 399px; */
+    width: 185.92px;
+    height: 152.84px;
+
+    background: #ffffff;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+
+    margin-right: 1%;
+
+    margin-bottom: 19px;
+    margin-top: 6px;
+    position: relative;
+  }
+
+  .program-card:nth-of-type(3n) {
+    margin-right: 1%;
+  }
+
+  .program-h2 {
+    font-family: "Roboto Slab", serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+    padding-left: 31px;
+
+    margin-bottom: 0;
+  }
+
+  /* Чёрный прямоугольник */
+  .black-rectangle {
+    background-color: black;
+    width: 364px;
+    height: 8px;
+    position: absolute;
+    top: 8px;
+    right: -346px;
+  }
+
+  .program-card-img {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .program-card-heading {
+    font-weight: 700;
+    padding-left: 11px;
+    margin-top: 2px;
+
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .program-card-date {
+    font-size: 12px;
+    line-height: 130%;
+    font-weight: 400;
+    padding-left: 8px;
+    position: absolute;
+    bottom: 23px;
+  }
+
+  .program-card-name {
+    font-size: 12px;
+    line-height: 130%;
+    font-weight: 400;
+    padding-left: 8px;
+    position: absolute;
+    bottom: 7px;
+  }
+}
+/* ----------------------------------------------------------------. // МЕДИАЗАПРОСЫ  ДЛЯ  СМАРТФОНОВ  ------------------------------------------------ */
 
 /* --------------------------------------------------------------------- //  Секция "ПРОГРАММА КУРСА" */
