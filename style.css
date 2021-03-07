@@ -967,6 +967,25 @@ body {
 /* Аватар */
 .course-authors__right-author .course-authors__avatar {
   margin-right: 19px;
+
+  position: relative;
+}
+
+/* У фотографии правого автора будет псевдоэлемент - картинка программиста, сидящего за компьютером */
+.course-authors__right-author .course-authors__avatar::before {
+  content: "";
+
+  /* На низких разрешениях скроем эту картинку! */
+  display: block;
+
+  width: 269px;
+  height: 215px;
+
+  position: absolute;
+  top: -628px;
+  right: -386px;
+
+  background-image: url("./image/image-rastr/desktop/programmer.png");
 }
 
 /* Имя автора       Данила Кузнецов    */
@@ -1018,9 +1037,8 @@ body {
 
 /* Псевдоэлемент для Большого текстового блока   в виде картинки с изображением программиста , сидящего за компьютером  */
 .course-authors__right-author .course-authors__author-description::before {
-  content: "";
+  /* content: "";
 
-  /* На низких разрешениях скроем эту картинку! */
   display: block;
 
   width: 269px;
@@ -1031,7 +1049,7 @@ body {
 
   right: 11px;
 
-  background-image: url("./image/image-rastr/desktop/programmer.png");
+  background-image: url("./image/image-rastr/desktop/programmer.png"); */
 }
 
 /* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
@@ -1060,6 +1078,24 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 17px;
+  }
+
+  /* Псевдоэлемент для правого автора  -  картинка с программистом */
+  .course-authors__right-author .course-authors__avatar::before {
+    content: "";
+
+    /* На низких разрешениях скроем эту картинку! */
+    display: block;
+
+    width: 155px;
+    height: 124px;
+
+    position: absolute;
+    top: -365px;
+    right: -217px;
+
+    background-image: url("./image/image-rastr/desktop/programmer.png");
+    background-size: cover;
   }
 
   /*  слегка пододвинем    ВПРАВО    значок   "i"    */
@@ -1238,7 +1274,7 @@ body {
 
   /* Псевдоэлемент для Большого текстового блока   в виде картинки с изображением программиста , сидящего за компьютером  */
   .course-authors__right-author .course-authors__author-description::before {
-    content: "";
+    /* content: "";
     display: block;
     width: 155px;
     height: 124px;
@@ -1246,7 +1282,7 @@ body {
     top: -143px;
     right: 9px;
     background-image: url(./image/image-rastr/desktop/programmer.png);
-    background-size: cover;
+    background-size: cover; */
   }
 }
 /*  ------------------------------------------------------------ //       МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
