@@ -226,6 +226,127 @@ body {
     padding-right: 50px;
   }
 }
+/*  ------------------------------------------------------------        МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
+
+/*  */
+
+/* ------------------------------------------------------------------------ МЕДИАЗАПРОСЫ  ДЛЯ МОБИЛОК ---------------------- */
+@media (min-width: 320px) and (max-width: 991px) {
+  .about-course-section {
+    /* width: 69.55%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 95px;
+  }
+
+  .about-h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    margin-bottom: 27px;
+    font-size: 26px;
+    line-height: 101.38%;
+  }
+  .about-lead {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-description {
+    width: 100%;
+    height: 216.61px;
+
+    margin-right: 94.98px;
+
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .about-description p {
+    width: 102%;
+  }
+
+  .about-lead-img {
+    width: 170px;
+    height: 160px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px;
+  }
+
+  .about-info {
+    display: flex;
+    margin-top: 2px;
+
+    position: relative;
+  }
+
+  /* Картинка человека с проектором  */
+  .about-info-img {
+    width: 108px;
+    height: 102px;
+    margin-right: 76.45px;
+
+    position: absolute;
+    right: -74px;
+    top: 83px;
+
+    /* display: none; */
+  }
+
+  /* Таблица */
+  .about-info-table {
+    margin-top: 40px;
+    border-collapse: collapse;
+
+    position: relative;
+
+    width: 237px;
+  }
+
+  .about-info-table th {
+    font-weight: 700;
+    /* width: 140px; */
+    height: 21px;
+
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  /* Ячейка таблицы */
+  .about-info-table td {
+    font-weight: 400;
+    /* width: 140px; */
+    height: 22.59px;
+    padding-left: 0;
+    padding-right: 0;
+
+    font-size: 10px;
+    line-height: 130%;
+  }
+
+  /* Перемещаем на новую строчку третью ячейку */
+
+  .position-th {
+    position: absolute;
+
+    top: 75px;
+    left: 0;
+  }
+
+  .position-td {
+    position: absolute;
+
+    top: 92px;
+    left: 0;
+  }
+}
+/* ------------------------------------------------------------------------  // МЕДИАЗАПРОСЫ  ДЛЯ МОБИЛОК  */
+
 /* ---------------------------------------------------------------------- // Секция "О КУРСЕ */
 
 /* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
