@@ -47,12 +47,13 @@ body {
   margin-right: auto;
 }
 
-/* ШАПКА */
+/* -- --------------------------------------------------- Секция  ШАПКА */
 .header {
   padding-top: 38px;
   padding-left: 41px;
 }
 
+/* ----------------------------------------------------Медиазапросы для ПЛАНШЕТОВ  */
 @media (min-width: 992px) and (max-width: 1279px) {
   /* ШАПКА */
   .header {
@@ -69,7 +70,9 @@ body {
     height: 38px;
   }
 }
+/* ----------------------------------------------------// Медиазапросы для ПЛАНШЕТОВ  */
 
+/* --------------------------------------------------------- МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ  */
 @media (min-width: 320px) and (max-width: 991px) {
   /* ШАПКА */
   .header {
@@ -85,8 +88,13 @@ body {
     height: 30.75px;
   }
 }
+/* ------------------------------------------------ //  МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ  */
 
-/* ---------------------------------------------------------------- СЕКЦИЯ "О КУРСЕ" */
+/* -- -------------------------------------------------// - Секция  ШАПКА  -------------------------------------------------*/
+
+/*  */
+
+/* ---------------------------------------------------------СЕКЦИЯ "О КУРСЕ" */
 .about-course-section {
   /* width: 1198px; */
   width: 93.5%;
@@ -2760,6 +2768,9 @@ body {
   .phone {
     width: 15px;
     height: 15px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
   }
 
   /* Номер телефона */
@@ -2793,9 +2804,10 @@ body {
   /* Иконка конверта */
   .mail-icon {
     margin-bottom: 3px;
-
     width: 15px;
     height: 10px;
+    position: relative;
+    right: 4px;
   }
 
   /* Электронный адрес */
@@ -2844,6 +2856,233 @@ body {
 }
 
 /*  ---------------------------------------------------------------------// МЕДИАЗАПРОСЫ       Для планшетов  --------------------------------------------*/
+
+/*  */
+
+/* -------------------------------------------------------------------  МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ        ------------------------------ */
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* Черный блок */
+  .footer {
+    background-color: black;
+    height: 390px;
+    padding-top: 29px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Контейнер с содержимыМ, помогает в центрировании */
+  .container-footer {
+    width: 298px;
+    height: 317px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Блок содержащий Логотип, иконки на соц.сети и контакты */
+  .social-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    margin-bottom: 0;
+  }
+
+  /* Блок с лого и соц.сетями */
+  .logo-icon {
+    margin-bottom: 29px;
+  }
+
+  /* Блок с лого */
+  .logo-white {
+    margin-bottom: 2px;
+  }
+
+  /* Непосредственно логотип */
+  .logo {
+    width: 53px;
+    height: 31px;
+  }
+
+  /* Блок с иконками на соц.сети */
+  .social-icon {
+    width: 89px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Размеры иконки Инстаграма */
+  .icon-inst {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Размеры иконки Фейсбука */
+  .icon-face {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Размеры иконки VK */
+  .icon-vk {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Размеры иконки Whats Up */
+  .icon-wa {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Инстаграм */
+  .icon-inst:hover {
+    position: relative;
+    bottom: 5px;
+  }
+
+  /* Файсбук */
+  .icon-face:hover {
+    position: relative;
+    bottom: 5px;
+  }
+
+  /* Вконтакте */
+  .icon-vk:hover {
+    position: relative;
+    bottom: 5px;
+  }
+
+  /* Вотсап */
+  .icon-wa:hover {
+    position: relative;
+    bottom: 5px;
+  }
+
+  /* Блок с контактами */
+  .contact {
+    width: 176px;
+    height: auto;
+
+    padding-right: 4px;
+    margin-bottom: 7px;
+  }
+
+  /* Блок с иконкой и номером */
+  .nomber-phone {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    /* padding-top: 6px; */
+  }
+
+  /* Иконка телефона */
+  .phone {
+    width: 13px;
+    height: 13px;
+  }
+
+  /* Номер телефона */
+  .nomber {
+    color: #ffffff;
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: normal;
+
+    margin-right: 57px;
+
+    position: relative;
+    left: 7px;
+    top: 2px;
+
+    font-size: 12px;
+    line-height: 101.38%;
+  }
+
+  .nomber:hover {
+    position: relative;
+    bottom: 5px;
+    text-decoration: underline;
+  }
+
+  /* Блок с иконкой и электронным адресом */
+  .mail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  /* Иконка конверта */
+  .mail-icon {
+    margin-bottom: 3px;
+
+    width: 12px;
+    height: 8px;
+  }
+
+  /* Электронный адрес */
+  .mail-shite {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    margin-right: 44px;
+
+    position: relative;
+    left: 9px;
+
+    font-size: 12px;
+    line-height: 101.38%;
+  }
+
+  .mail-shite:hover {
+    position: relative;
+    bottom: 5px;
+    text-decoration: underline;
+  }
+
+  /* Блок с нижним названием */
+  .synchronization {
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    color: #ffffff;
+  }
+
+  /* Блок находящийся внутри блока с названием */
+  .synchroniz {
+    width: 230px;
+    height: 0px;
+  }
+
+  /* Нижнее название */
+  .synch {
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 10px;
+    line-height: 101.38%;
+  }
+}
+
+/* ------------------------------------------------------------------// МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ        ------------------------------ */
+
+/* Дополнительный медиазапрос для смартфонов */
+@media (min-width: 500px) and (max-width: 990px) {
+  .social-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+}
+
+/* //  Дополнительный медиазапрос для смартфонов */
 
 /* -----------------------------------------------------------  //   Подвал сайта   Footer    ----------------------------------------------- */
 
