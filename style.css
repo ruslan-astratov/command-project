@@ -495,6 +495,8 @@ body {
 }
 /* --------------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
 
+/*  */
+
 /* -------------------------------------------------------------------  Секция "ЧТО УЗНАЕМ  -------------------------------------*/
 
 /* Родительская обёртка   для картинки с самураями,  текстового блока и картинки с Годзиллой */
@@ -668,10 +670,116 @@ body {
     max-width: 223px;
   }
 }
-
 /*  -------------------------------------- //   МЕДИАЗАПРОСЫ для ПЛАНШЕТОВ    от 992 пикселей до 1279 --------------------------------------------  */
 
+/*  */
+
+/* -------------------------------------------------------- МЕДИАЗАПРОСЫ для СМАРТФОНОВ ---------------------------------------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 991px) {
+  /* Сам тег section */
+  /* .what-we-learn {
+    width: 85.95%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  /* Родительская обёртка   для картинки с самураями,  текстового блока и картинки с Годзиллой */
+
+  .what-we-learn__wrapper {
+    position: relative;
+
+    margin-bottom: 128px;
+
+    width: 90.95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Картинка с двумя самураями */
+  .what-we-learn__samurai {
+    display: block;
+    height: auto;
+    max-width: 132px;
+    margin-left: auto;
+    position: absolute;
+    right: 1px;
+    bottom: 277px;
+  }
+
+  .what-we-learn__samurai img {
+    display: block;
+    height: auto;
+    max-width: 132px;
+    /* margin-left: auto; */
+    /* 
+    position: absolute;
+    right: 209px;
+    bottom: 401px; */
+  }
+
+  /* ----------- Текстовый блок */
+
+  /* Обёртка над заголовком и списком */
+  .what-we-learn__description {
+    /* width: 76.95%; */
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Заголовок     "Что узнаем"   */
+  .what-we-learn__heading {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+    padding-left: 0;
+
+    position: relative;
+    right: 4px;
+  }
+
+  /* Список */
+  .what-we-learn__list {
+    font-size: 12px;
+    line-height: 150%;
+
+    padding-left: 4px;
+
+    /* width: 299px; */
+    width: 101%;
+
+    font-weight: normal;
+  }
+
+  /* Элементы списка */
+  .what-we-learn__list-item {
+  }
+  /* --------- // Текстовый блок */
+
+  /* Картинка с Годзиллой */
+  .what-we-learn__godzilla {
+    display: block;
+    height: auto;
+    max-width: 179px;
+    margin-left: auto;
+    position: absolute;
+    right: 58px;
+    bottom: -116px;
+  }
+
+  .what-we-learn__godzilla img {
+    display: block;
+    height: auto;
+    max-width: 179px;
+  }
+}
+/* -------------------------------------------------------- МЕДИАЗАПРОСЫ для СМАРТФОНОВ ---------------------------------------------------------------------------------*/
+
 /* // ----------- ------------------------------------------// Секция "ЧТО УЗНАЕМ */
+
+/*  */
 /* ----------------------------------------           Секция "Как смотреть кино" ----------------------------------------*/
 .how-to-watch-movie {
   /* width: 1112px; */
