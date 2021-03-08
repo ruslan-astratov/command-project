@@ -55,7 +55,7 @@ body {
 
 /* ----------------------------------------------------Медиазапросы для ПЛАНШЕТОВ  */
 @media (min-width: 992px) and (max-width: 1279px) {
-  /* ШАПКА ДЛЯ ПЛАНШЕТОВ*/
+  /* ШАПКА */
   .header {
     padding-top: 22px;
     padding-left: 41px;
@@ -74,13 +74,15 @@ body {
 
 /* --------------------------------------------------------- МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ  */
 @media (min-width: 320px) and (max-width: 991px) {
-  /* ШАПКА ДЛЯ МОБИЛОК*/
+  /* ШАПКА */
   .header {
-    padding-top: 36px;
-    padding-left: 53px;
+    padding-top: 48px;
+    padding-left: 0;
     width: 85.3%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    right: 17px;
   }
 
   .header img {
@@ -90,393 +92,6 @@ body {
 }
 /* ------------------------------------------------ //  МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ  */
 
-/* ----------------------------------------           Секция "Как смотреть кино" ----------------------------------------*/
-.how-to-watch-movie {
-  /* width: 1112px; */
-  width: 87%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 91px;
-
-  position: relative;
-  right: 42px;
-
-  margin-bottom: 170px;
-}
-.top {
-  display: flex;
-}
-.info {
-  display: flex;
-  height: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  justify-content: end;
-}
-.info p {
-  margin-top: 4px;
-}
-.globe {
-  width: 22px;
-  height: 25px;
-  margin-right: 9px;
-}
-.clock {
-  width: 22px;
-  height: 22px;
-  margin-left: 39px;
-  margin-right: 10px;
-}
-.calendar {
-  width: 20px;
-  height: 22px;
-  margin-left: 46px;
-  margin-right: 13px;
-}
-
-.center {
-  display: flex;
-  justify-content: space-between;
-}
-.first-part {
-  height: 257px;
-}
-.how {
-  font-family: "Roboto Slab", serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 101.38%;
-  color: #000000;
-  margin-top: 18px;
-  margin-left: 2px;
-  height: 190px;
-}
-.text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 150%;
-  color: #000000;
-  margin-top: 5px;
-  margin-left: 2px;
-}
-.second-part {
-  margin-right: 39px;
-  margin-top: 8px;
-}
-.third-part {
-  width: 483.63px;
-  height: 200px;
-  background-color: #1e4681;
-  border-radius: 5px;
-  transform: rotate(-4deg);
-  margin-left: 289px;
-  margin-top: 86px;
-  padding-top: 20px;
-  padding-left: 29px;
-  padding-right: 29px;
-}
-.block {
-  width: 434px;
-  height: 125px;
-  left: 432px;
-  top: 702px;
-  font-family: "Roboto Slab", serif;
-  font-size: 25px;
-  line-height: 130%;
-  color: white;
-  margin: auto;
-  margin-bottom: 6px;
-}
-.block-two {
-  width: 435px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 130%;
-  text-align: right;
-  color: #ffffff;
-}
-
-/*  ------------------------------------------------------------- МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
-@media (min-width: 992px) and (max-width: 1279px) {
-  /*  */
-
-  .how-to-watch-movie {
-    width: 61.9%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 53px;
-    position: relative;
-    right: 42px;
-    margin-bottom: 101px;
-  }
-  .top {
-    display: flex;
-  }
-  .info {
-    display: flex;
-    height: 32px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    justify-content: end;
-  }
-  .info p {
-    margin-top: 4px;
-    font-size: 12px;
-    line-height: 115%;
-  }
-  .globe {
-    width: 12px;
-    height: 12px;
-    margin-right: 9px;
-  }
-  .clock {
-    width: 12px;
-    height: 12px;
-    margin-left: 16px;
-    margin-right: 8px;
-  }
-  .calendar {
-    width: 12px;
-    height: 12px;
-    margin-left: 24px;
-    margin-right: 8px;
-  }
-
-  .center {
-    display: flex;
-    justify-content: space-between;
-  }
-  .first-part {
-    height: 257px;
-  }
-  .how {
-    font-family: "Roboto Slab", serif;
-    font-style: normal;
-    font-weight: bold;
-
-    color: #000000;
-    margin-top: -3px;
-    margin-left: 2px;
-    height: 46px;
-
-    font-size: 46px;
-    line-height: 101.38%;
-  }
-
-  .text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-
-    color: #000000;
-    margin-top: 66px;
-    margin-left: 2px;
-
-    font-size: 12px;
-    line-height: 150%;
-  }
-
-  .second-part {
-    margin-right: -6px;
-    margin-top: -12px;
-  }
-
-  .second-part img {
-    width: 176px;
-    height: 217px;
-  }
-
-  .third-part {
-    width: 279px;
-    height: 115px;
-    background-color: #1e4681;
-    border-radius: 5px;
-    transform: rotate(-4deg);
-    margin-left: 169px;
-    margin-top: -9px;
-    padding-top: 11px;
-    padding-left: 15px;
-    padding-right: 14px;
-  }
-
-  .block {
-    width: 100%;
-    height: 100%;
-    left: 432px;
-    top: 702px;
-    font-family: "Roboto Slab", serif;
-    color: white;
-    margin: auto;
-    margin-bottom: 6px;
-    font-size: 14px;
-    line-height: 130%;
-  }
-  .block-two {
-    width: 100%;
-    font-style: normal;
-    font-weight: normal;
-    text-align: right;
-    color: #ffffff;
-    font-size: 12px;
-    position: relative;
-    bottom: 31px;
-    line-height: 130%;
-  }
-}
-/*  --------------------------------------------------------- //  МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
-
-/* Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
-@media (min-width: 1720px) {
-  .how-to-watch-movie {
-    /* width: 1112px; */
-    width: 91%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 91px;
-    position: relative;
-    right: 42px;
-    margin-bottom: 170px;
-  }
-}
-
-/*  --------------------------------------------------------- МЕДИАЗАПРОСЫ   ДЛЯ МОБИЛОК  */
-@media (min-width: 320px) and (max-width: 991px) {
- 
-  .how-to-watch-movie {
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    position: relative;
-    right: -79px;
-    margin-bottom: 101px;
-  }
-  .top {
-    display: flex;
-  }
-  .info {
-    display: flex;
-    height: 14.91px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400px;
-    
-    justify-content: end;
-  }
-  .info p {
-    margin-top: 0;
-    font-size: 10px;
-    line-height: 115%;
-  }
-  .globe {
-    width: 10.25px;
-    height: 9.79px;
-    margin-right: 5px;
-  }
-  .clock {
-    width: 10.25px;
-    height: 10.25px;
-    margin-left: 13px;
-    margin-right: 5px;
-  }
-  .calendar {
-    width: 9.32px;
-    height: 10.25px;
-    margin-left: 19px;
-    margin-right: 5px;
-  }
-
-  .center {
-    display: flex;
-    justify-content: space-between;
-  }
-  .first-part {
-    height: 257px;
-  }
-  .how {
-    font-family: "Roboto Slab", serif;
-    font-weight: 700px;
-    color: #000000;
-    margin-top: 9px;
-    margin-left: 1px;
-    height: 46px;
-    font-size: 37px;
-    line-height: 101.38%;
-  }
-
-  .text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400px;
-    color: #000000;
-    margin-top: 44px;
-    margin-left: 1px;
-    font-size: 10px;
-    line-height: 150%;
-  }
-
-  .second-part {
-    position: relative;
-  }
-
-  .second-part img {
-    width: 141.66px;
-    height: 165.89px;
-    position: absolute;
-    top: 119px;
-    right: 116px;
-  }
-
-  .third-part {
-    width: 225.36px;
-    height: 93.19px;
-    background-color: #1e4681;
-    border-radius: 5px;
-    transform: rotate(-4deg);
-    margin-left: 3px;
-    margin-top: 85px;
-    padding-top: 9px;
-    padding-left: 13px;
-    padding-right: 12px;
-  }
-
-  .block {
-    width: 100%;
-    height: 100%;
-    left: 432px;
-    top: 702px;
-    font-family: "Roboto Slab", serif;
-    color: white;
-    margin: auto;
-    margin-bottom: 8px;
-    font-size: 11px;
-    line-height: 130%;
-  }
-  .block-two {
-    width: 101%;
-    font-weight: 400px;
-    text-align: right;
-    color: #ffffff;
-    font-size: 10px;
-    position: relative;
-    bottom: 30px;
-    line-height: 130%;
-    
-    
-  }
-}
-/*  --------------------------------------------------------- //  МЕДИАЗАПРОСЫ   ДЛЯ МОБИЛОК  */
-
-/* ----------------------------- -------------------------- //   Секция   Как смотреть  кино ------------------------ */
-
-/* ---------------------------------------------------------------- СЕКЦИЯ "О КУРСЕ" */
 /* -- -------------------------------------------------// - Секция  ШАПКА  -------------------------------------------------*/
 
 /*  */
@@ -647,7 +262,7 @@ body {
     /* width: 69.55%; */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 95px;
+    margin-bottom: 139px;
   }
 
   .about-h2 {
@@ -687,7 +302,7 @@ body {
 
   .about-info {
     display: flex;
-    margin-top: 2px;
+    margin-top: 5px;
 
     position: relative;
   }
@@ -711,6 +326,7 @@ body {
     border-collapse: collapse;
 
     position: relative;
+    right: 4px;
 
     width: 237px;
   }
@@ -735,6 +351,7 @@ body {
     height: 22.59px;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
 
     font-size: 10px;
     line-height: 130%;
@@ -898,7 +515,7 @@ body {
 /*  ------------------------------------------------------------ МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ ------------------------------------------------------------- */
 @media (min-width: 320px) and (max-width: 991px) {
   .class-format {
-    margin-bottom: 123px;
+    margin-bottom: 76px;
 
     margin-left: auto;
     margin-right: auto;
@@ -1168,7 +785,7 @@ body {
   .what-we-learn__wrapper {
     position: relative;
 
-    margin-bottom: 128px;
+    margin-bottom: 169px;
 
     width: 90.95%;
     margin-left: auto;
@@ -1273,9 +890,11 @@ body {
 
   margin-bottom: 170px;
 }
+
 .top {
   display: flex;
 }
+
 .info {
   display: flex;
   height: 32px;
@@ -1285,20 +904,24 @@ body {
   font-size: 20px;
   justify-content: end;
 }
+
 .info p {
   margin-top: 4px;
 }
+
 .globe {
   width: 22px;
   height: 25px;
   margin-right: 9px;
 }
+
 .clock {
   width: 22px;
   height: 22px;
   margin-left: 39px;
   margin-right: 10px;
 }
+
 .calendar {
   width: 20px;
   height: 22px;
@@ -1310,9 +933,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .first-part {
   height: 257px;
 }
+
 .how {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -1324,6 +949,7 @@ body {
   margin-left: 2px;
   height: 190px;
 }
+
 .text {
   font-style: normal;
   font-weight: normal;
@@ -1333,10 +959,18 @@ body {
   margin-top: 5px;
   margin-left: 2px;
 }
+
 .second-part {
   margin-right: 39px;
   margin-top: 8px;
 }
+
+/* Картинка человека */
+.Men {
+  width: 305px;
+  height: 376px;
+}
+
 .third-part {
   width: 483.63px;
   height: 200px;
@@ -1344,161 +978,348 @@ body {
   border-radius: 5px;
   transform: rotate(-4deg);
   margin-left: 289px;
-  margin-top: 86px;
+  margin-top: 62px;
   padding-top: 20px;
   padding-left: 29px;
   padding-right: 29px;
 }
 
-/* Заголовок     "Что узнаем"   */
-.what-we-learn__heading {
+.block {
+  width: 434px;
+  height: 125px;
+  left: 432px;
+  top: 702px;
   font-family: "Roboto Slab", serif;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 55.76px;
-
-  margin-bottom: 58px;
-  padding-left: 6px;
+  font-size: 25px;
+  line-height: 130%;
+  color: white;
+  margin: auto;
+  margin-bottom: 6px;
 }
 
-/* Список */
-.what-we-learn__list {
-  font-size: 24px;
-  line-height: 36px;
-
-  padding-left: 23px;
-
-  /* width: 662px; */
-  width: 668px;
+.block-two {
+  width: 435px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  color: #ffffff;
 }
 
-/* Элементы списка */
-.what-we-learn__list-item {
-}
-/* --------- // Текстовый блок */
-
-/* Картинка с Годзиллой */
-.what-we-learn__godzilla {
-  display: block;
-  height: auto;
-  max-width: 386px;
-  margin-left: auto;
-
-  position: absolute;
-  right: 127px;
-  bottom: 43px;
-}
-
-/*  */
-
-/*  --------------------------------------   МЕДИАЗАПРОСЫ для ПЛАНШЕТОВ    от 992 пикселей до 1279 --------------------------------------------  */
-
+/*  ------------------------------------------------------------- МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
 @media (min-width: 992px) and (max-width: 1279px) {
-  /* Сам тег section */
-  /* .what-we-learn {
-    width: 85.95%;
+  /*  */
+
+  .how-to-watch-movie {
+    /* width: 1112px; */
+    /* width: 87%; */
+
+    width: 61.9%;
+
     margin-left: auto;
     margin-right: auto;
-  } */
+    margin-top: 53px;
 
-  /* Родительская обёртка   для картинки с самураями,  текстового блока и картинки с Годзиллой */
-
-  .what-we-learn__wrapper {
     position: relative;
+    right: 42px;
 
-    margin-bottom: 128px;
-
-    width: 90.95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 101px;
   }
-
-  /* Картинка с двумя самураями */
-  .what-we-learn__samurai {
-    display: block;
-    height: auto;
-    max-width: 284px;
-    margin-left: auto;
-
-    position: absolute;
-    right: 206px;
-    bottom: 238px;
+  .top {
+    display: flex;
   }
-
-  .what-we-learn__samurai img {
-    display: block;
-    height: auto;
-    max-width: 158px;
-    /* margin-left: auto; */
-    /* 
-    position: absolute;
-    right: 209px;
-    bottom: 401px; */
-  }
-
-  /* ----------- Текстовый блок */
-
-  /* Обёртка над заголовком и списком */
-  .what-we-learn__description {
-    /* width: 703px; */
-    width: 76.95%;
-    padding-left: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Заголовок     "Что узнаем"   */
-  .what-we-learn__heading {
-    font-family: "Roboto Slab", serif;
-    margin-bottom: 34px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 101.38%;
-    padding-left: 0;
-  }
-
-  /* Список */
-  .what-we-learn__list {
-    font-size: 24px;
-    line-height: 36px;
-
-    padding-left: 10px;
-
-    /* width: 383px; */
-    width: 397px;
-
+  .info {
+    display: flex;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
+    justify-content: end;
+  }
+  .info p {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 115%;
+  }
+  .globe {
+    width: 12px;
+    height: 12px;
+    margin-right: 9px;
+  }
+  .clock {
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    margin-right: 8px;
+  }
+  .calendar {
+    width: 12px;
+    height: 12px;
+    margin-left: 24px;
+    margin-right: 8px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-part {
+    height: 257px;
+  }
+  .how {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #000000;
+    margin-top: -3px;
+    margin-left: 2px;
+    height: 46px;
+
+    font-size: 46px;
+    line-height: 101.38%;
+  }
+
+  .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #000000;
+    margin-top: 66px;
+    margin-left: 2px;
+
+    font-size: 12px;
     line-height: 150%;
   }
 
-  /* Элементы списка */
-  .what-we-learn__list-item {
+  .second-part {
+    margin-right: -6px;
+    margin-top: -12px;
   }
-  /* --------- // Текстовый блок */
 
-  /* Картинка с Годзиллой */
-  .what-we-learn__godzilla {
-    display: block;
-    height: auto;
-    max-width: 386px;
+  .second-part img {
+    width: 176px;
+    height: 217px;
+  }
+
+  .third-part {
+    width: 279px;
+    height: 115px;
+    background-color: #1e4681;
+    border-radius: 5px;
+    transform: rotate(-4deg);
+    margin-left: 169px;
+    margin-top: -9px;
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-right: 14px;
+  }
+
+  .block {
+    width: 100%;
+    height: 100%;
+    left: 432px;
+    top: 702px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    margin: auto;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .block-two {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    bottom: 31px;
+    line-height: 130%;
+  }
+}
+/*  --------------------------------------------------------- //  МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
+
+/*  */
+
+/* --------------------------------------------------------- МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ  */
+@media (min-width: 320px) and (max-width: 991px) {
+  .how-to-watch-movie {
+    width: 225px;
+
     margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
 
-    position: absolute;
-    right: 153px;
-    bottom: 27px;
+    position: relative;
+    right: 42px;
+
+    margin-bottom: 74px;
   }
 
-  .what-we-learn__godzilla img {
-    display: block;
+  .top {
+    display: flex;
+  }
+
+  .info {
+    display: flex;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: end;
+  }
+
+  /* Текст    Онлайн курс     18 часов   8 сентября */
+  .info p {
+    margin-top: 0;
+    font-size: 10px;
+    line-height: 115%;
+    width: 60px;
+  }
+
+  .globe {
+    width: 10px;
+    height: 10px;
+    margin-right: 9px;
+  }
+
+  .clock {
+    width: 10px;
+    height: 10px;
+    margin-left: 7px;
+    margin-right: 8px;
+  }
+
+  .calendar {
+    width: 10px;
+    height: 10px;
+    margin-left: -3px;
+    margin-right: 8px;
+  }
+
+  /* Ряд для текстового содержимого (слева)  и картинки (справа) */
+  .center {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+  }
+
+  .first-part {
     height: auto;
-    max-width: 223px;
+  }
+
+  .how {
+    width: 292px;
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #000000;
+    margin-top: -10px;
+    margin-left: 2px;
+    height: 46px;
+
+    font-size: 37px;
+    line-height: 101.38%;
+  }
+
+  /* Текст -  "За 8 занятий.. */
+  .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #000000;
+    margin-top: 46px;
+    margin-left: 2px;
+
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  .second-part {
+    margin-right: 0;
+    margin-top: -2px;
+    margin-left: auto;
+    position: relative;
+    left: 83px;
+  }
+
+  /* Картинка человека */
+  .second-part img {
+    width: 141px;
+    height: 175px;
+  }
+
+  .third-part {
+    width: 227px;
+    height: 93px;
+    background-color: #1e4681;
+    border-radius: 5px;
+    transform: rotate(-4deg);
+    margin-left: 2px;
+    margin-top: 36px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 14px;
+  }
+
+  /* СИНИЙ ТЕКСТОВЫЙ БЛОК -    Зритель для меня не потребитель */
+  .block {
+    width: 100%;
+    height: 100%;
+    left: 432px;
+    top: 702px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    margin: auto;
+    margin-bottom: 6px;
+    font-size: 11px;
+    line-height: 130%;
+  }
+
+  /* Андрей Тарковский */
+  .block-two {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+    color: #ffffff;
+    position: relative;
+    bottom: 28px;
+    right: -4px;
+    font-size: 10px;
+    line-height: 130%;
   }
 }
 
-/*  -------------------------------------- //   МЕДИАЗАПРОСЫ для ПЛАНШЕТОВ    от 992 пикселей до 1279 --------------------------------------------  */
+/* -------------------------------------------------------//  МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ  */
 
-/* // ----------- ------------------------------------------// Секция "ЧТО УЗНАЕМ */
+/*  */
+
+/* Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
+@media (min-width: 1720px) {
+  .how-to-watch-movie {
+    /* width: 1112px; */
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 91px;
+    position: relative;
+    right: 42px;
+    margin-bottom: 170px;
+  }
+}
+
+/* ----------------------------- -------------------------- //   Секция   Как смотреть  кино ------------------------ */
 
 /* ----------------------------------------------------------- ----  Секция АВТОРЫ  КУРСА  ---------------------------------------------------------------------*/
 
@@ -1593,6 +1414,7 @@ body {
   line-height: 101.38%;
 
   position: relative;
+  top: 5px;
 }
 
 /* Значок "i"  обозначающий всплывающую подсказку   ( значок реализован в виде ссылки, тег <a></a> )  */
@@ -1637,7 +1459,7 @@ body {
   line-height: 130%;
 
   position: relative;
-  top: 13px;
+  top: 15px;
 }
 
 /* Большой текстовый блок с описанием автора */
@@ -1724,10 +1546,10 @@ body {
   line-height: 101.38%;
   padding-top: 2px;
 
-  margin-bottom: 14px;
+  margin-bottom: 17px;
 
   position: relative;
-  top: 4px;
+  top: 9px;
   right: 4px;
 }
 
@@ -1973,6 +1795,7 @@ body {
 
     position: relative;
     right: 14px;
+    top: 5px;
   }
 
   /* Краткое описание автора */
@@ -1981,7 +1804,7 @@ body {
     line-height: 130%;
 
     position: relative;
-    bottom: 5px;
+    bottom: 7px;
     right: 15px;
   }
 
@@ -2024,6 +1847,10 @@ body {
   .course-authors__left-author,
   .course-authors__right-author {
     width: 94.68%;
+  }
+
+  .course-authors__left-author {
+    padding-top: 0;
   }
 
   .course-authors__left-author.parent-author {
@@ -2085,7 +1912,7 @@ body {
     padding-left: 0;
 
     position: relative;
-    right: 17px;
+    right: 23px;
   }
 
   /* Заголовок "Авторы курса"   */
@@ -2095,7 +1922,7 @@ body {
     line-height: 101.38%;
 
     position: relative;
-    right: 7px;
+    right: 10px;
     bottom: 5px;
 
     margin-bottom: 33px;
@@ -2146,7 +1973,7 @@ body {
     /* margin-left: auto; */
     position: relative;
     bottom: -2px;
-    left: 19px;
+    left: 12px;
   }
 
   /* Для левого автора    Стили для двух параграфов , которые находятся внутри большого текстового блока    */
@@ -2176,6 +2003,9 @@ body {
   .course-authors__right-author.parent-author {
     display: flex;
     flex-direction: column-reverse;
+    height: 333px;
+    position: relative;
+    top: 40px;
   }
 
   /* Большой текстовый блок с описанием автора */
@@ -2195,7 +2025,7 @@ body {
     top: -8px;
     right: 40px;
 
-    transform: translateX(-4px);
+    transform: translateX(-8px);
   }
 
   /* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
@@ -2236,7 +2066,7 @@ body {
     line-height: 101.38%;
 
     position: relative;
-    right: 14px;
+    right: 20px;
     top: 2px;
   }
 
@@ -2248,7 +2078,7 @@ body {
 
     position: relative;
     bottom: 6px;
-    right: 15px;
+    right: 20px;
   }
 
   /*  слегка пододвинем    ВПРАВО    значок   "i"   у правого автора */
@@ -2263,19 +2093,6 @@ body {
     position: relative;
     top: 1px;
     right: 4px;
-  }
-
-  /* Псевдоэлемент для Большого текстового блока   в виде картинки с изображением программиста , сидящего за компьютером  */
-  .course-authors__right-author .course-authors__author-description::before {
-    /* content: "";
-      display: block;
-      width: 155px;
-      height: 124px;
-      position: absolute;
-      top: -143px;
-      right: 9px;
-      background-image: url(./image/image-rastr/desktop/programmer.png);
-      background-size: cover; */
   }
 }
 /* --------------------------------------------------------- // МЕДИАЗАПРОСЫ  ДЛЯ   СМАРТФОНОВ ----------- */
@@ -2494,9 +2311,9 @@ body {
   /* Сама секция.  Тег section */
   .course-reviews {
     background: #efefef;
-    padding-top: 51px;
+    padding-top: 41px;
 
-    padding-bottom: 65px;
+    padding-bottom: 55px;
   }
 
   /* Технический контейнер. Нужен только для того, чтобы отцентровать контент в середине страницы */
@@ -2538,7 +2355,7 @@ body {
 
   /* Аватарка пользователя */
   .course-reviews__card-avatar-user {
-    margin-right: 24spx;
+    margin-right: 24px;
     position: relative;
     bottom: 5px;
     left: 16px;
@@ -2632,7 +2449,7 @@ body {
   font-size: 55px;
   line-height: 101.38%;
 
-  margin-bottom: 62px;
+  margin-bottom: 66px;
 }
 
 /* текст   "Стоимость"  */
@@ -2786,10 +2603,10 @@ body {
 @media (min-width: 320px) and (max-width: 991px) {
   /* Сама секция.   Тег section */
   .start-course {
-    padding-top: 102px;
+    padding-top: 63px;
     /* padding-bottom: 185px; */
 
-    padding-bottom: 119px;
+    padding-bottom: 69px;
 
     background: #9dc9c8;
   }
@@ -2958,7 +2775,8 @@ body {
   margin-right: 57px;
 
   position: relative;
-  left: 17px;
+  left: 21px;
+  top: 4px;
 }
 .nomber:hover {
   position: relative;
@@ -2990,6 +2808,7 @@ body {
 
   position: relative;
   left: 17px;
+  top: 3px;
 }
 .mail-shite:hover {
   position: relative;
@@ -3147,6 +2966,7 @@ body {
 
     position: relative;
     left: 7px;
+    top: -1px;
 
     font-size: 14px;
     line-height: 101.38%;
@@ -3184,6 +3004,7 @@ body {
 
     position: relative;
     left: 9px;
+    top: -2px;
 
     font-size: 14px;
     line-height: 101.38%;
@@ -3229,7 +3050,7 @@ body {
   .footer {
     background-color: black;
     height: 390px;
-    padding-top: 29px;
+    padding-top: 23px;
 
     margin-left: auto;
     margin-right: auto;
@@ -3702,7 +3523,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    margin-bottom: 12px;
+    margin-bottom: 57px;
   }
 
   .program-h2-wrapper {
