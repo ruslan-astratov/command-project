@@ -955,6 +955,9 @@ body {
   /* width: 1217px; */
   width: 95%;
 
+  /* Ограничили блок по ширине */
+  max-width: 1400px;
+
   margin-right: auto;
   margin-left: auto;
 
@@ -1070,7 +1073,7 @@ body {
   line-height: 130%;
 
   position: relative;
-  top: 15px;
+  top: 13px;
 }
 
 /* Большой текстовый блок с описанием автора */
@@ -1128,6 +1131,7 @@ body {
   margin-right: 19px;
 
   position: relative;
+  left: -4px;
 }
 
 /* У фотографии правого автора будет псевдоэлемент - картинка программиста, сидящего за компьютером */
@@ -1169,6 +1173,7 @@ body {
   h3
   .course-authors__information {
   margin-left: 15px;
+  bottom: 0;
 }
 
 /* Краткая характеристика автора              режиссёр, историк кино     */
@@ -1195,7 +1200,7 @@ body {
   margin-bottom: 4px;
 
   position: relative;
-  left: 16px;
+  left: 13px;
 }
 
 /* Псевдоэлемент для Большого текстового блока   в виде картинки с изображением программиста , сидящего за компьютером  */
@@ -1255,7 +1260,7 @@ body {
 
     position: absolute;
     top: -365px;
-    right: -217px;
+    right: -223px;
 
     background-image: url("./image/image-rastr/desktop/programmer.png");
     background-size: cover;
@@ -1360,21 +1365,16 @@ body {
   /* Большой текстовый блок с описанием автора */
   .course-authors__right-author .course-authors__author-description {
     width: 231px;
-    padding: 14px 12px 22px 15px;
-
+    padding: 14px 12px 23px 15px;
     background: #ffffff;
-    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.579167px 0.579167px 11.5833px rgb(0 0 0 / 25%);
     border-radius: 17.375px;
-
     margin-left: auto;
-    margin-bottom: 66px;
-
+    margin-bottom: 67px;
     position: relative;
-
     top: 65px;
     right: 40px;
-
-    transform: translateX(-10px);
+    transform: translateX(-8px);
   }
 
   /* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
@@ -1396,7 +1396,7 @@ body {
     height: 96px;
 
     position: relative;
-    right: 7px;
+    right: 2px;
   }
 
   /* Имя автора справа */
@@ -1431,7 +1431,7 @@ body {
     font-size: 10.425px;
     line-height: 130%;
     position: relative;
-    top: 1px;
+    top: -2px;
     right: 4px;
   }
 
@@ -1448,7 +1448,275 @@ body {
     background-size: cover; */
   }
 }
-/*  ------------------------------------------------------------ //       МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
+/*  ------------------------------------------------------------ //    МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
+
+/*  */
+
+/*  */
+
+/* -------------------------------------------------------------------   МЕДИАЗАПРОСЫ  ДЛЯ   СМАРТФОНОВ   ---------------------------------------------------- */
+@media (min-width: 320px) and (max-width: 991px) {
+  /* Ширина блоков Левый автор  и   Правый автор       на смартфонах  - */
+  .course-authors__left-author,
+  .course-authors__right-author {
+    width: 94.68%;
+  }
+
+  .course-authors__left-author.parent-author {
+    margin-bottom: 79px;
+  }
+
+  /* Делаем облачка текста видимыми */
+  .course-authors__author-description {
+    visibility: visible;
+  }
+
+  /* Делаем значок "i"  невидимым */
+  .course-authors__information {
+    display: none;
+  }
+
+  /* Флекс-родитель, который будет позиционировать детей - ширина у него будет 1217 пикселей */
+  .course-authors__flex-parent {
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+  }
+
+  /* Псевдоэлемент для правого автора  -  картинка с программистом */
+  .course-authors__right-author .course-authors__avatar::before {
+    content: "";
+
+    /* На низких разрешениях скроем эту картинку! */
+    display: none;
+
+    width: 155px;
+    height: 124px;
+
+    position: absolute;
+    top: -365px;
+    right: -217px;
+
+    background-image: url("./image/image-rastr/desktop/programmer.png");
+    background-size: cover;
+  }
+
+  /*  слегка пододвинем    ВПРАВО    значок   "i"    */
+  .course-authors__left-author
+    .course-authors__fio
+    h3
+    .course-authors__information {
+    width: 16px;
+    height: 16px;
+
+    font-size: 10.425px;
+    line-height: 130%;
+  }
+
+  /* Для левого автора  - РЯД  с аватаром , инициалами  и кратким описанием  */
+  .course-authors__left-author .course-authors__avatar-and-fio {
+    padding-left: 0;
+
+    position: relative;
+    right: 17px;
+  }
+
+  /* Заголовок "Авторы курса"   */
+  .course-authors__heading {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+
+    position: relative;
+    right: 7px;
+    bottom: 5px;
+
+    margin-bottom: 33px;
+  }
+
+  /* Аватар левого автора */
+  .course-authors__left-author .course-authors__avatar img {
+    display: block;
+    width: 88px;
+    height: 82px;
+  }
+
+  /* Имя    левого  втора       Данила Кузнецов    */
+  .course-authors__left-author .course-authors__fio h3 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+
+    font-size: 14px;
+    line-height: 101.38%;
+
+    position: relative;
+    top: 11px;
+    right: 6px;
+  }
+
+  /* Краткая характеристика левого автора              режиссёр, историк кино     */
+  .course-authors__left-author .course-authors__fio p {
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 10px;
+    line-height: 130%;
+
+    position: relative;
+    top: 18px;
+
+    right: 7px;
+  }
+
+  /* Слева    Большой текстовый блок с описанием автора */
+  .course-authors__left-author .course-authors__author-description {
+    width: 214px;
+    padding: 0;
+    background: #ffffff;
+    box-shadow: none;
+    /* border-radius: 17.375px; */
+    /* margin-left: auto; */
+    position: relative;
+    bottom: -2px;
+    left: 19px;
+  }
+
+  /* Для левого автора    Стили для двух параграфов , которые находятся внутри большого текстового блока    */
+  .course-authors__left-author .course-authors__author-description p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    width: 214px;
+    line-height: 130%;
+  }
+
+  /*  */
+  .course-authors__left-author
+    .course-authors__author-description
+    p:first-child {
+    margin-bottom: 14px;
+  }
+
+  /* -------------------------------------------------    Для ПРАВОГО автора  */
+
+  /* Для ПРАВОГО автора  - РЯД  с аватаром , инициалами  и кратким описанием  */
+  .course-authors__right-author .course-authors__avatar-and-fio {
+    position: relative;
+    right: 20px;
+  }
+
+  .course-authors__right-author.parent-author {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Большой текстовый блок с описанием автора */
+  .course-authors__right-author .course-authors__author-description {
+    width: 231px;
+    padding: 14px 12px 22px 15px;
+
+    background: #ffffff;
+    box-shadow: none;
+    border-radius: 17.375px;
+
+    margin-left: auto;
+    margin-bottom: 66px;
+
+    position: relative;
+
+    top: -8px;
+    right: 40px;
+
+    transform: translateX(-4px);
+  }
+
+  /* Стили для двух параграфов , которые находятся внутри большого текстового блока    */
+  .course-authors__right-author .course-authors__author-description p {
+    font-size: 10px;
+    line-height: 130%;
+  }
+
+  /* Отступ вниз для параграфа */
+  .course-authors__right-author
+    .course-authors__author-description
+    p:first-child {
+    margin-bottom: 14px;
+  }
+
+  /* Ширина второго параграфа */
+  .course-authors__right-author
+    .course-authors__author-description
+    p:last-child {
+    width: 207px;
+  }
+
+  /* Аватар */
+  .course-authors__right-author .course-authors__avatar img {
+    width: 88px;
+    height: 82px;
+
+    position: relative;
+    right: 1px;
+  }
+
+  /* Имя автора справа */
+  .course-authors__right-author .course-authors__fio h3 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 101.38%;
+
+    position: relative;
+    right: 14px;
+    top: 2px;
+  }
+
+  /* Краткое описание автора */
+  .course-authors__right-author .course-authors__fio p {
+    font-size: 10px;
+    line-height: 130%;
+    width: 201px;
+
+    position: relative;
+    bottom: 6px;
+    right: 15px;
+  }
+
+  /*  слегка пододвинем    ВПРАВО    значок   "i"   у правого автора */
+  .course-authors__right-author
+    .course-authors__fio
+    h3
+    .course-authors__information {
+    width: 17px;
+    height: 17px;
+    font-size: 10.425px;
+    line-height: 130%;
+    position: relative;
+    top: 1px;
+    right: 4px;
+  }
+
+  /* Псевдоэлемент для Большого текстового блока   в виде картинки с изображением программиста , сидящего за компьютером  */
+  .course-authors__right-author .course-authors__author-description::before {
+    /* content: "";
+      display: block;
+      width: 155px;
+      height: 124px;
+      position: absolute;
+      top: -143px;
+      right: 9px;
+      background-image: url(./image/image-rastr/desktop/programmer.png);
+      background-size: cover; */
+  }
+}
+/* --------------------------------------------------------- // МЕДИАЗАПРОСЫ  ДЛЯ   СМАРТФОНОВ ----------- */
+
+/*  */
 
 /* --------------------------------------------------------------- //   Секция АВТОРЫ  КУРСА ---------------------------------------------------------------  */
 
