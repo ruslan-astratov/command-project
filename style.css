@@ -54,7 +54,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
-  /* ШАПКА */
+  /* ШАПКА ДЛЯ ПЛАНШЕТОВ*/
   .header {
     padding-top: 22px;
     padding-left: 41px;
@@ -71,7 +71,7 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  /* ШАПКА */
+  /* ШАПКА ДЛЯ МОБИЛОК*/
   .header {
     padding-top: 36px;
     padding-left: 53px;
@@ -85,6 +85,392 @@ body {
     height: 30.75px;
   }
 }
+
+/* ----------------------------------------           Секция "Как смотреть кино" ----------------------------------------*/
+.how-to-watch-movie {
+  /* width: 1112px; */
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 91px;
+
+  position: relative;
+  right: 42px;
+
+  margin-bottom: 170px;
+}
+.top {
+  display: flex;
+}
+.info {
+  display: flex;
+  height: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  justify-content: end;
+}
+.info p {
+  margin-top: 4px;
+}
+.globe {
+  width: 22px;
+  height: 25px;
+  margin-right: 9px;
+}
+.clock {
+  width: 22px;
+  height: 22px;
+  margin-left: 39px;
+  margin-right: 10px;
+}
+.calendar {
+  width: 20px;
+  height: 22px;
+  margin-left: 46px;
+  margin-right: 13px;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+}
+.first-part {
+  height: 257px;
+}
+.how {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-top: 18px;
+  margin-left: 2px;
+  height: 190px;
+}
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.second-part {
+  margin-right: 39px;
+  margin-top: 8px;
+}
+.third-part {
+  width: 483.63px;
+  height: 200px;
+  background-color: #1e4681;
+  border-radius: 5px;
+  transform: rotate(-4deg);
+  margin-left: 289px;
+  margin-top: 86px;
+  padding-top: 20px;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+.block {
+  width: 434px;
+  height: 125px;
+  left: 432px;
+  top: 702px;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  line-height: 130%;
+  color: white;
+  margin: auto;
+  margin-bottom: 6px;
+}
+.block-two {
+  width: 435px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  color: #ffffff;
+}
+
+/*  ------------------------------------------------------------- МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
+@media (min-width: 992px) and (max-width: 1279px) {
+  /*  */
+
+  .how-to-watch-movie {
+    width: 61.9%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+    position: relative;
+    right: 42px;
+    margin-bottom: 101px;
+  }
+  .top {
+    display: flex;
+  }
+  .info {
+    display: flex;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: end;
+  }
+  .info p {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 115%;
+  }
+  .globe {
+    width: 12px;
+    height: 12px;
+    margin-right: 9px;
+  }
+  .clock {
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    margin-right: 8px;
+  }
+  .calendar {
+    width: 12px;
+    height: 12px;
+    margin-left: 24px;
+    margin-right: 8px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-part {
+    height: 257px;
+  }
+  .how {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #000000;
+    margin-top: -3px;
+    margin-left: 2px;
+    height: 46px;
+
+    font-size: 46px;
+    line-height: 101.38%;
+  }
+
+  .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #000000;
+    margin-top: 66px;
+    margin-left: 2px;
+
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .second-part {
+    margin-right: -6px;
+    margin-top: -12px;
+  }
+
+  .second-part img {
+    width: 176px;
+    height: 217px;
+  }
+
+  .third-part {
+    width: 279px;
+    height: 115px;
+    background-color: #1e4681;
+    border-radius: 5px;
+    transform: rotate(-4deg);
+    margin-left: 169px;
+    margin-top: -9px;
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-right: 14px;
+  }
+
+  .block {
+    width: 100%;
+    height: 100%;
+    left: 432px;
+    top: 702px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    margin: auto;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .block-two {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    bottom: 31px;
+    line-height: 130%;
+  }
+}
+/*  --------------------------------------------------------- //  МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
+
+/* Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
+@media (min-width: 1720px) {
+  .how-to-watch-movie {
+    /* width: 1112px; */
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 91px;
+    position: relative;
+    right: 42px;
+    margin-bottom: 170px;
+  }
+}
+
+/*  --------------------------------------------------------- МЕДИАЗАПРОСЫ   ДЛЯ МОБИЛОК  */
+@media (min-width: 320px) and (max-width: 991px) {
+ 
+  .how-to-watch-movie {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+    right: -79px;
+    margin-bottom: 101px;
+  }
+  .top {
+    display: flex;
+  }
+  .info {
+    display: flex;
+    height: 14.91px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400px;
+    
+    justify-content: end;
+  }
+  .info p {
+    margin-top: 0;
+    font-size: 10px;
+    line-height: 115%;
+  }
+  .globe {
+    width: 10.25px;
+    height: 9.79px;
+    margin-right: 5px;
+  }
+  .clock {
+    width: 10.25px;
+    height: 10.25px;
+    margin-left: 13px;
+    margin-right: 5px;
+  }
+  .calendar {
+    width: 9.32px;
+    height: 10.25px;
+    margin-left: 19px;
+    margin-right: 5px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-part {
+    height: 257px;
+  }
+  .how {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700px;
+    color: #000000;
+    margin-top: 9px;
+    margin-left: 1px;
+    height: 46px;
+    font-size: 37px;
+    line-height: 101.38%;
+  }
+
+  .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400px;
+    color: #000000;
+    margin-top: 44px;
+    margin-left: 1px;
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  .second-part {
+    position: relative;
+  }
+
+  .second-part img {
+    width: 141.66px;
+    height: 165.89px;
+    position: absolute;
+    top: 119px;
+    right: 116px;
+  }
+
+  .third-part {
+    width: 225.36px;
+    height: 93.19px;
+    background-color: #1e4681;
+    border-radius: 5px;
+    transform: rotate(-4deg);
+    margin-left: 3px;
+    margin-top: 85px;
+    padding-top: 9px;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+
+  .block {
+    width: 100%;
+    height: 100%;
+    left: 432px;
+    top: 702px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    margin: auto;
+    margin-bottom: 8px;
+    font-size: 11px;
+    line-height: 130%;
+  }
+  .block-two {
+    width: 101%;
+    font-weight: 400px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 10px;
+    position: relative;
+    bottom: 30px;
+    line-height: 130%;
+    
+    
+  }
+}
+/*  --------------------------------------------------------- //  МЕДИАЗАПРОСЫ   ДЛЯ МОБИЛОК  */
+
+/* ----------------------------- -------------------------- //   Секция   Как смотреть  кино ------------------------ */
 
 /* ---------------------------------------------------------------- СЕКЦИЯ "О КУРСЕ" */
 .about-course-section {
@@ -672,269 +1058,6 @@ body {
 /*  -------------------------------------- //   МЕДИАЗАПРОСЫ для ПЛАНШЕТОВ    от 992 пикселей до 1279 --------------------------------------------  */
 
 /* // ----------- ------------------------------------------// Секция "ЧТО УЗНАЕМ */
-/* ----------------------------------------           Секция "Как смотреть кино" ----------------------------------------*/
-.how-to-watch-movie {
-  /* width: 1112px; */
-  width: 87%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 91px;
-
-  position: relative;
-  right: 42px;
-
-  margin-bottom: 170px;
-}
-.top {
-  display: flex;
-}
-.info {
-  display: flex;
-  height: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  justify-content: end;
-}
-.info p {
-  margin-top: 4px;
-}
-.globe {
-  width: 22px;
-  height: 25px;
-  margin-right: 9px;
-}
-.clock {
-  width: 22px;
-  height: 22px;
-  margin-left: 39px;
-  margin-right: 10px;
-}
-.calendar {
-  width: 20px;
-  height: 22px;
-  margin-left: 46px;
-  margin-right: 13px;
-}
-
-.center {
-  display: flex;
-  justify-content: space-between;
-}
-.first-part {
-  height: 257px;
-}
-.how {
-  font-family: "Roboto Slab", serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 101.38%;
-  color: #000000;
-  margin-top: 18px;
-  margin-left: 2px;
-  height: 190px;
-}
-.text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 150%;
-  color: #000000;
-  margin-top: 5px;
-  margin-left: 2px;
-}
-.second-part {
-  margin-right: 39px;
-  margin-top: 8px;
-}
-.third-part {
-  width: 483.63px;
-  height: 200px;
-  background-color: #1e4681;
-  border-radius: 5px;
-  transform: rotate(-4deg);
-  margin-left: 289px;
-  margin-top: 86px;
-  padding-top: 20px;
-  padding-left: 29px;
-  padding-right: 29px;
-}
-.block {
-  width: 434px;
-  height: 125px;
-  left: 432px;
-  top: 702px;
-  font-family: "Roboto Slab", serif;
-  font-size: 25px;
-  line-height: 130%;
-  color: white;
-  margin: auto;
-  margin-bottom: 6px;
-}
-.block-two {
-  width: 435px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 130%;
-  text-align: right;
-  color: #ffffff;
-}
-
-/*  ------------------------------------------------------------- МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
-@media (min-width: 992px) and (max-width: 1279px) {
-  /*  */
-
-  .how-to-watch-movie {
-    /* width: 1112px; */
-    /* width: 87%; */
-
-    width: 61.9%;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 53px;
-
-    position: relative;
-    right: 42px;
-
-    margin-bottom: 101px;
-  }
-  .top {
-    display: flex;
-  }
-  .info {
-    display: flex;
-    height: 32px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    justify-content: end;
-  }
-  .info p {
-    margin-top: 4px;
-    font-size: 12px;
-    line-height: 115%;
-  }
-  .globe {
-    width: 12px;
-    height: 12px;
-    margin-right: 9px;
-  }
-  .clock {
-    width: 12px;
-    height: 12px;
-    margin-left: 16px;
-    margin-right: 8px;
-  }
-  .calendar {
-    width: 12px;
-    height: 12px;
-    margin-left: 24px;
-    margin-right: 8px;
-  }
-
-  .center {
-    display: flex;
-    justify-content: space-between;
-  }
-  .first-part {
-    height: 257px;
-  }
-  .how {
-    font-family: "Roboto Slab", serif;
-    font-style: normal;
-    font-weight: bold;
-
-    color: #000000;
-    margin-top: -3px;
-    margin-left: 2px;
-    height: 46px;
-
-    font-size: 46px;
-    line-height: 101.38%;
-  }
-
-  .text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-
-    color: #000000;
-    margin-top: 66px;
-    margin-left: 2px;
-
-    font-size: 12px;
-    line-height: 150%;
-  }
-
-  .second-part {
-    margin-right: -6px;
-    margin-top: -12px;
-  }
-
-  .second-part img {
-    width: 176px;
-    height: 217px;
-  }
-
-  .third-part {
-    width: 279px;
-    height: 115px;
-    background-color: #1e4681;
-    border-radius: 5px;
-    transform: rotate(-4deg);
-    margin-left: 169px;
-    margin-top: -9px;
-    padding-top: 11px;
-    padding-left: 15px;
-    padding-right: 14px;
-  }
-
-  .block {
-    width: 100%;
-    height: 100%;
-    left: 432px;
-    top: 702px;
-    font-family: "Roboto Slab", serif;
-    color: white;
-    margin: auto;
-    margin-bottom: 6px;
-    font-size: 14px;
-    line-height: 130%;
-  }
-  .block-two {
-    width: 100%;
-    font-style: normal;
-    font-weight: normal;
-    text-align: right;
-    color: #ffffff;
-    font-size: 12px;
-    position: relative;
-    bottom: 31px;
-    line-height: 130%;
-  }
-}
-
-/* Медиазапросы   для десктопов/широких экранов.    Устраняем проблему поломанных карточек  */
-@media (min-width: 1720px) {
-  .how-to-watch-movie {
-    /* width: 1112px; */
-    width: 91%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 91px;
-    position: relative;
-    right: 42px;
-    margin-bottom: 170px;
-  }
-}
-/*  --------------------------------------------------------- //  МЕДИАЗАПРОСЫ   ДЛЯ ПЛАНШЕТОВ  */
-
-/* ----------------------------- -------------------------- //   Секция   Как смотреть  кино ------------------------ */
 
 /* ----------------------------------------------------------- ----  Секция АВТОРЫ  КУРСА  ---------------------------------------------------------------------*/
 
