@@ -365,6 +365,8 @@ body {
 
 /* ---------------------------------------------------------------------- // Секция "О КУРСЕ */
 
+/*  */
+
 /* ----------------------------------------------------------------- Секция "ФОРМАТ ЗАНЯТИЙ */
 .class-format {
   margin-bottom: 218px;
@@ -493,6 +495,89 @@ body {
     line-height: 14.3px;
   }
 }
+
+/*  ------------------------------------------------------------ //       МЕДИАЗАПРОСЫ          Для планшетов  ----------------------------------------------------------------------- */
+
+/*  */
+
+/*  ------------------------------------------------------------ МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ ------------------------------------------------------------- */
+@media (min-width: 320px) and (max-width: 991px) {
+  .class-format {
+    margin-bottom: 123px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Вспомогательный контейнер шириной 1272 пикселя */
+  .container1272px {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Заголовок секции -  "Формат занятий */
+  .class-format__heading {
+    font-family: "Roboto Slab", serif;
+
+    width: 310px;
+
+    font-size: 26px;
+    line-height: 101.38%;
+
+    text-align: left;
+    margin-bottom: 35px;
+    padding-left: 5px;
+  }
+
+  /* Обёртка для трёх карточек */
+  .class-format__wrapper-for-cards {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+  }
+
+  /* Стили для карточки 1 */
+  .class-format__card:nth-child(1) {
+    width: 140px;
+    margin-right: 59px;
+    margin-bottom: 30px;
+  }
+
+  /* Стили для карточки 2 */
+  .class-format__card:nth-child(2) {
+    width: 172px;
+    margin-right: 50.87px;
+    margin-bottom: 30px;
+  }
+
+  /* Стили для карточки 3 */
+  .class-format__card:nth-child(3) {
+    width: 141.9px;
+  }
+
+  /* ЗАГОЛОВОК     в каждой карточке */
+  .class-format__card-heading {
+    font-weight: 700;
+
+    font-size: 12px;
+    line-height: 130%;
+
+    color: #1e4681;
+    margin-bottom: 5px;
+  }
+
+  /* Параграф - описание внутри карточки */
+  .class-format__card-description {
+    font-size: 10px;
+    line-height: 130%;
+    width: 171px;
+  }
+}
+
+/*  ------------------------------------------------------------ // МЕДИАЗАПРОСЫ ДЛЯ СМАРТФОНОВ ------------------------------------------------------------- */
+
+/*  */
 /* --------------------------------------------------------------- // Секция "ФОРМАТ ЗАНЯТИЙ */
 
 /*  */
